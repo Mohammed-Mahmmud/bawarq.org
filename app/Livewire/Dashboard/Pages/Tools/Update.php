@@ -28,7 +28,9 @@ class Update extends Component
     {
         $data = $this->validate($this->rules());
         if ($this->image) {
-            unlink($this->tool->image);
+            if (file_exists($this->tool->image)) {
+                unlink($this->tool->image);
+            }
             $imageName = time() . '.' . $this->image->getClientOriginalExtension();
             $this->image->storeAs('images', $imageName, 'public');
             $data['image'] = 'storage/images/' . $imageName;
