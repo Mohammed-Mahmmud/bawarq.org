@@ -1,0 +1,46 @@
+    <!--  ====== header-area-start
+    ============================================================ -->
+    <header>
+        <div id="header-sticky" class="transparent-header header-area">
+            <div class="header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-5">
+                            <div class="logo mt-50 mb-50 transition5">
+                                <a class="header-logo" href="index.html"><img
+                                        src="{{ asset('front/assets') }}/images/logo/logo.png" alt="THAMES"></a>
+                            </div>
+                        </div><!-- /col -->
+                        <div
+                            class="col-xl-10 col-lg-10 col-md-9 col-sm-8 col-7 pl-0 d-flex justify-content-end align-items-center">
+                            <div class="main-menu">
+                                <nav id="mobile-menu">
+                                    <ul class="d-block">
+                                        <li>
+                                            <a class="active" href="#home">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="#service">service</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div><!-- /main-menu -->
+
+                            <div class="mobile-m-bar d-block d-xl-none ml-30">
+                                <a class="mobile-menubar theme-color primary-hover" href="javascript:void(0);"><i
+                                        class="far fa-bars"></i></a>
+                            </div>
+                        </div>
+                        <!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div>
+        </div><!-- /header-bottom -->
+    </header>
+    <!--  header-area-end  -->

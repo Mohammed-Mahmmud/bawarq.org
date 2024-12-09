@@ -1,0 +1,33 @@
+<!-- Core JS -->
+<!-- build:js assets/vendor/js/core.js -->
+<script src="{{ asset('dashboard') }}/assets/vendor/libs/jquery/jquery.js"></script>
+<script src="{{ asset('dashboard') }}/assets/vendor/libs/popper/popper.js"></script>
+<script src="{{ asset('dashboard') }}/assets/vendor/js/bootstrap.js"></script>
+<script src="{{ asset('dashboard') }}/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+<script src="{{ asset('dashboard') }}/assets/vendor/js/menu.js"></script>
+<!-- endbuild -->
+
+<!-- Vendors JS -->
+<script src="{{ asset('dashboard') }}/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+<!-- Main JS -->
+<script src="{{ asset('dashboard') }}/assets/js/main.js"></script>
+
+<!-- Page JS -->
+<script src="{{ asset('dashboard') }}/assets/js/dashboards-analytics.js"></script>
+<script src="{{ asset('dashboard/ckeditor/ckeditor.js') }}"></script>
+<script>
+    $(document).ready(function() {
+        // document.querySelectorAll('.editor').forEach(element => {
+        // CKEDITOR.replace(element);
+        // });
+        // document.querySelectorAll('#ckeditor').forEach(element => {
+        CKEDITOR.replace('#ckeditor');
+        // });
+    });
+</script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="{{ asset('assets/dashboard/js/script.js') }}"></script>
+@yield('scripts')

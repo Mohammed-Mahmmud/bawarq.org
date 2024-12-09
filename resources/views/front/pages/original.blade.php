@@ -1,0 +1,3055 @@
+@extends('front.layouts.master')
+@section('title', 'Bawarq')
+@section('content')
+    <!-- ====== intro-feature-area-start
+            ================================================== -->
+    <div class="intro-feature-area over-hidden position-relative section-bg">
+        <div class="container">
+            {{-- <div class="row single-intro-feature-wrapper justify-content-center pt-170 pb-140">
+                <div class="col-xl-3  col-lg-3  col-md-6  col-sm-9 col-11">
+                    <div class="single-intro-feature-content white-bg border-radius10 transition5 mb-30" data-tilt=""
+                        data-tilt-max="10">
+                        <div class="intro-ft-icon d-inline-block mb-30 transition5">
+                            <img src="{{ asset('front/assets') }}/images/icon/intro-ft-icon1.png" alt="icon1">
+                        </div><!-- /intro ft-icon -->
+                        <div class="intro-feature-text">
+                            <h4 class="mb-22">Dedication</h4>
+                            <p>Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et
+                                sopno vitae.</p>
+                        </div>
+                    </div><!-- /single-intro-feature-content -->
+                </div><!-- /col -->
+
+                <div class="col-xl-3  col-lg-3  col-md-6  col-sm-9 col-11">
+                    <div class="single-intro-feature-content white-bg border-radius10 transition5 mb-30 intro-feature-margin mt-60"
+                        data-tilt="" data-tilt-max="10">
+                        <div class="intro-ft-icon d-inline-block mb-30 transition5">
+                            <img src="{{ asset('front/assets') }}/images/icon/intro-ft-icon2.png" alt="icon1">
+                        </div><!-- /intro ft-icon -->
+                        <div class="intro-feature-text">
+                            <h4 class="mb-22">Smart Work</h4>
+                            <p>Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et
+                                sopno vitae.</p>
+                        </div>
+                    </div><!-- /single-intro-feature-content -->
+                </div><!-- /col -->
+
+                <div class="col-xl-3  col-lg-3  col-md-6  col-sm-9 col-11">
+                    <div class="single-intro-feature-content white-bg border-radius10 transition5 mb-30" data-tilt=""
+                        data-tilt-max="10">
+                        <div class="intro-ft-icon d-inline-block mb-30 transition5">
+                            <img src="{{ asset('front/assets') }}/images/icon/intro-ft-icon3.png" alt="icon1">
+                        </div><!-- /intro ft-icon -->
+                        <div class="intro-feature-text">
+                            <h4 class="mb-22">Collaboration</h4>
+                            <p>Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et
+                                sopno vitae.</p>
+                        </div>
+                    </div><!-- /single-intro-feature-content -->
+                </div><!-- /col -->
+
+                <div class="col-xl-3  col-lg-3  col-md-6  col-sm-9 col-11">
+                    <div class="single-intro-feature-content white-bg border-radius10 transition5 mb-30 intro-feature-margin mt-60"
+                        data-tilt="" data-tilt-max="10">
+                        <div class="intro-ft-icon d-inline-block mb-30 transition5">
+                            <img src="{{ asset('front/assets') }}/images/icon/intro-ft-icon4.png" alt="icon1">
+                        </div><!-- /intro ft-icon -->
+                        <div class="intro-feature-text">
+                            <h4 class="mb-22">Technology</h4>
+                            <p>Seaque ipsa quae ab illo inven tore veritatis et qua si architecto beatae atis et
+                                sopno vitae.</p>
+                        </div>
+                    </div><!-- /single-intro-feature-content -->
+                </div><!-- /col -->
+            </div><!-- /row --> --}}
+        </div><!-- /container -->
+        <div class="intro-feature-text-style position-absolute d-none d-md-inline-block">
+            <span class="d-inline-block">James</span>
+        </div><!-- /intro-feature-text -->
+        <div class="intro-feature-icon position-absolute d-none d-md-inline-block zoom-animation">
+            <img src="{{ asset('front/assets') }}/images/shape/content-shape1.png" alt="intro shape 1">
+        </div><!-- /intro-feature-icon -->
+    </div>
+    <!-- intro-area-end  -->
+
+
+
+    <!-- ====== about-area-start
+            ==================================================== -->
+    <div id="about" class="about-area over-hidden">
+        <div class="about-content-wrapper about-margin mt-170 mb-110 position-relative">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-xl-6 col-lg-6 col-md-8 offset-md-0 col-sm-10 col-10">
+                        <div class="about-img-wrapper position-relative mb-90">
+                            <div class="about-img position-relative z-index11" data-aos="fade-right"
+                                data-aos-duration="2000" data-aos-delay="100">
+                                <div class="about-img-over pl-50 transition5 d-inline-block position-relative">
+                                    <div class="position-relative z-index11" data-tilt="" data-tilt-max="10">
+                                        <img class="border-radius10 position-relative z-index11"
+                                            src="{{ asset('front/assets') }}/images/about/about-img.jpg"
+                                            alt="about image 1">
+                                    </div>
+
+                                    <div class="about-shape1 position-absolute" data-aos="fade-right"
+                                        data-aos-duration="2000" data-aos-delay="800"></div><!-- /about-shape1 -->
+                                    <div class="about-shape2 position-absolute z-index11" data-aos="fade-right"
+                                        data-aos-duration="2000" data-aos-delay="800"></div><!-- /about-shape2 -->
+                                    <div class="about-download-wrapper position-absolute z-index11">
+                                        <img class="download-bg rotate-animation d-inline-block"
+                                            src="{{ asset('front/assets') }}/images/about/download-bg.png"
+                                            alt="about image 2">
+                                        <a href="#" class="cv-download-link transition5">
+                                            <img class="d-icon d-inline-block position-absolute"
+                                                src="{{ asset('front/assets') }}/images/icon/download-icon.png"
+                                                alt="about image 3">
+                                        </a>
+                                    </div><!-- /about-download -->
+
+                                </div>
+                            </div><!-- /about-img -->
+                        </div><!-- /about-img-wrapper -->
+                    </div><!-- /col -->
+
+                    <div class="col-xl-6 col-lg-6  col-md-12 col-sm-12 col-12">
+                        <div class="about-content position-relative mb-50">
+                            <div class="position-relative">
+                                <div class="title">
+                                    <span class="theme-color text-uppercase d-block mb-1 mt--5">About Me</span>
+                                    <h2 class="mb-30">I Develop System that Works</h2>
+                                </div><!-- /title -->
+                            </div>
+                            <p class="mb-25">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                officia dese runt mollit anim id est laboru doloremque laudantium, totaeaque ipsa
+                                quae ab illo inven tore veritatis et quasi architecto beatae vitae.</p>
+                            <p>Oremque laudantium, totaeaque ipsa quae </p>
+                            <div class="about-info-wrapper pt-25 pb-20 mt-25">
+                                <div class="row">
+                                    <div class="col-xl-6  col-lg-12  col-md-6  col-sm-12 col-12">
+                                        <ul class="about-info">
+                                            <li class="d-inline-block pr-50">
+                                                <p class="jostMedium-font-family mb-6">Name</p>
+                                                <p class="jostMedium-font-family mb-6">Age</p>
+                                                <p class="jostMedium-font-family mb-6">Occupation</p>
+                                            </li><!-- /li -->
+                                            <li class="d-inline-block">
+                                                <p class="mb-6">James Smith</p>
+                                                <p class="mb-6">29 Years</p>
+                                                <p class="mb-6">System Engineer</p>
+                                            </li><!-- /li -->
+                                        </ul>
+                                    </div><!-- /col -->
+                                    <div class="col-xl-6  col-lg-12  col-md-6  col-sm-12 col-12">
+                                        <ul class="about-info">
+                                            <li class="d-inline-block pr-50">
+                                                <p class="jostMedium-font-family mb-6">Phone</p>
+                                                <p class="jostMedium-font-family mb-6">Email</p>
+                                                <p class="jostMedium-font-family mb-6">Nationality</p>
+                                            </li><!-- /li -->
+                                            <li class="d-inline-block">
+                                                <p class="mb-6">+123 456 7890</p>
+                                                <p class="mb-6">hello@thames.com</p>
+                                                <p class="mb-6">Bangladeshi</p>
+                                            </li><!-- /li -->
+                                        </ul>
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /about-info-wrapper -->
+                            <div
+                                class="about-footer-content d-flex align-items-center justify-content-sm-start justify-content-between mt-lg-2 mt-sm-4 mt-3">
+                                <div class="signature pt-12 pr-45">
+                                    <img src="{{ asset('front/assets') }}/images/about/signature.png" alt="signature">
+                                </div>
+                                <div class="about-footer-content-right mt-20 text-left">
+                                    <h6 class="d-xl-inline-block text-uppercase pr5 mb-0">Bruce Wayne</h6>
+                                    <span class="openS-font-family meta-text-color">Software Architect, Google
+                                        Inc.</span>
+                                </div>
+                            </div><!-- /about-footer-content -->
+                        </div><!-- /about-content -->
+                    </div><!-- /col -->
+
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+            <div class="about-text-style position-absolute d-none d-md-inline-block">
+                <span class="d-inline-block section-text-color">Smith</span>
+            </div><!-- /intro-feature-text -->
+            <div class="about-icon position-absolute d-none d-md-inline-block z-index1 zoom-animation">
+                <img src="{{ asset('front/assets') }}/images/shape/content-shape2.png" alt="about shape 2">
+            </div><!-- /intro-feature-icon -->
+
+        </div><!-- /about-wrapper -->
+    </div>
+    <!-- about-area-end -->
+
+
+
+    <!-- ====== portfolio-area-start
+            ==================================================== -->
+    {{-- <div id="work" class="portfolio-area over-hidden pb-165">
+
+        <div class="marquee-w mb-125">
+            <div class="marquee">
+                <span class="pl-4">Senior Website Developer from New York *</span>
+                <span class="pl-4">Senior Website Developer from New York *</span>
+            </div>
+            <div class="marquee marquee2 pb-1">
+                <span>I’m Open for new projects * Let’s Work Together.</span>
+                <span>I’m Open for new projects * Let’s Work Together.</span>
+            </div>
+        </div><!-- /marquee -->
+
+        <div class="portfolio-wrapper position-relative mt--5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                        <div class="title text-center">
+                            <span class="theme-color text-uppercase d-block mb-6">Portfolio</span>
+                            <h2>My Recent Works</h2>
+                        </div><!-- /title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+
+                <div class="row portfolio mt-80">
+                    <div class="col-12">
+                        <div class="row single-portfolio position-relative theme-border-top align-items-center">
+                            <div class="col-xl-2 col-lg-2 col-md-7  col-sm- col-">
+                                <div class="port-category">
+                                    <span class="meta-text-color text-uppercase">web design</span>
+                                </div>
+                            </div><!-- /col -->
+                            <div class="col-xl-5 col-lg-5 col-md-6 col-sm- col- pl-lg-0">
+                                <h3>Software Design for eThemeStudio</h3>
+                            </div><!-- /col -->
+                            <div
+                                class="col-xl-5  col-lg-5 col-md-6  col-sm- col- d-flex justify-content-end align-items-center">
+                                <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    src="{{ asset('front/assets') }}/images/portfolio/port-img1.jpg"
+                                    alt="portfolio image 1">
+                                <div class="port-content text-center transition5 z-index11" data-toggle="modal"
+                                    data-target="#exampleModal-p1">
+                                    <span class="d-inline-block"><i class="far fa-plus"></i>
+                                    </span>
+                                </div><!-- /port-content -->
+                            </div><!-- /col -->
+                        </div><!-- /single-prot -->
+                    </div><!-- /col -->
+
+                    <div class="col-12">
+                        <div class="row single-portfolio position-relative theme-border-top align-items-center">
+                            <div class="col-xl-2 col-lg-2 col-md-7 col-sm- col-">
+                                <div class="port-category">
+                                    <span class="meta-text-color text-uppercase">Development</span>
+                                </div>
+                            </div><!-- /col -->
+                            <div class="col-xl-5 col-lg-5 col-md-6  col-sm- col- pl-lg-0">
+                                <h3>Website Development for ABC Corporation</h3>
+                            </div><!-- /col -->
+                            <div
+                                class="col-xl-5  col-lg-5 col-md-6  col-sm- col- d-flex justify-content-end align-items-center">
+                                <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    src="{{ asset('front/assets') }}/images/portfolio/port-img2.jpg"
+                                    alt="portfolio image2">
+                                <div class="port-content text-center transition5 z-index11" data-toggle="modal"
+                                    data-target="#exampleModal-p2">
+                                    <span class="d-inline-block"><i class="far fa-plus"></i>
+                                    </span>
+                                </div><!-- /port-content -->
+                            </div><!-- /col -->
+                        </div><!-- /single-prot -->
+                    </div><!-- /col -->
+
+                    <div class="col-12">
+                        <div class="row single-portfolio position-relative theme-border-top align-items-center">
+                            <div class="col-xl-2 col-lg-2 col-md-7 col-sm- col-">
+                                <div class="port-category">
+                                    <span class="meta-text-color text-uppercase">Branding</span>
+                                </div>
+                            </div><!-- /col -->
+                            <div class="col-xl-5 col-lg-5 col-md-6 col-sm- col- ml-lg-0">
+                                <h3>Branding for Easy Computers</h3>
+                            </div><!-- /col -->
+                            <div
+                                class="col-xl-5 col-lg-5 col-md-6  col-sm- col- d-flex justify-content-end align-items-center">
+                                <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    src="{{ asset('front/assets') }}/images/portfolio/port-img3.jpg"
+                                    alt="portfolio image 3">
+                                <div class="port-content text-center transition5 z-index11" data-toggle="modal"
+                                    data-target="#exampleModal-p3">
+                                    <span class="d-inline-block"><i class="far fa-plus"></i>
+                                    </span>
+                                </div><!-- /port-content -->
+                            </div><!-- /col -->
+                        </div><!-- /single-prot -->
+                    </div><!-- /col -->
+
+                    <div class="col-12">
+                        <div
+                            class="row single-portfolio position-relative theme-border-top theme-border-bottom align-items-center">
+                            <div class="col-xl-2 col-lg-2 col-md-7 col-sm- col-">
+                                <div class="port-category">
+                                    <span class="meta-text-color text-uppercase">Photography</span>
+                                </div>
+                            </div><!-- /col -->
+                            <div class="col-xl-5 col-lg-5 col-md-6  col-sm- col- pl-lg-0">
+                                <h3>Security Analysis for eThemeStudio</h3>
+                            </div><!-- /col -->
+                            <div
+                                class="col-xl-5  col-lg-5 col-md-6 col-sm- col- d-flex justify-content-end align-items-center">
+                                <img class="port-img position-absolute left-0 ml-xl-3 transition5"
+                                    src="{{ asset('front/assets') }}/images/portfolio/port-img4.jpg"
+                                    alt="portfolio image 4">
+                                <div class="port-content text-center transition5 z-index11" data-toggle="modal"
+                                    data-target="#exampleModal-p4">
+                                    <span class="d-inline-block"><i class="far fa-plus"></i>
+                                    </span>
+                                </div><!-- /port-content -->
+                            </div><!-- /col -->
+                        </div><!-- /single-prot -->
+                    </div><!-- /col -->
+
+                </div><!-- /row -->
+
+
+                <!-- Modal1 start -->
+                <div class="modal fade" id="exampleModal-p1" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModal-p1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="close-icon float-right pt-10 pr-10">
+                                <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                    aria-label="Close">
+                                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-content border-0">
+                                <div class="modal-body pl-50 pr-50 pt-10 pb-20">
+                                    <div class="blog-modal-img">
+                                        <img class="w-100"
+                                            src="{{ asset('front/assets') }}/images/portfolio/port-img1-large.jpg"
+                                            alt="product image 02">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                            <div class="content-wrapper">
+                                                <h2 class="modal-title">eThemeStudio Custom CMS</h2>
+                                                <p>
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum
+                                                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                    ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Dignissimos laudantium fuga molestiae, aut eius minus
+                                                    reprehenderit.
+                                                </p>
+                                                <p class="mb-0">
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div><!-- /col -->
+                                        <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                            <div class="meta-wrapper form-bg mt-60 pt-40 pb-45 pr-20 pl-45 mt-40 mb-10">
+                                                <ul class="item-meta">
+                                                    <li>Project Type : <span class="pl-2 openS-font-family">Graphic
+                                                            Design</span></li>
+                                                    <li>Clien : <span class="pl-2 openS-font-family">Juwel
+                                                            Khan</span></li>
+                                                    <li>Duration :<span class="pl-2 openS-font-family">2
+                                                            Weeks</span></li>
+                                                    <li>Task : <span class="pl-2 openS-font-family">UI/UX,
+                                                            Frontend</span></li>
+                                                    <li>Budget : <span class="pl-2 openS-font-family">$2000</span>
+                                                    </li>
+                                                </ul>
+                                                <a href="#"
+                                                    class="btn position-relative over-hidden text-white theme-bg theme-border2 text-uppercase mt-20 pt-2 pb-2">View
+                                                    Live</a>
+                                            </div>
+                                        </div><!-- /col -->
+                                    </div><!-- /row -->
+                                    <div class="pro-modal-footer mt-30 mb-45">
+                                        <div class="row align-items-center justify-content-md-between">
+                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                <div class="modal-tags d-sm-flex align-items-center pt-25">
+                                                    <h6 class="mb-0 pr-15 black-color">Tags :</h6>
+                                                    <ul class="tag-list">
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Web
+                                                                Design</a>
+                                                        </li>
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Social
+                                                                Media</a>
+                                                        </li>
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Product</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- /col -->
+                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-10 col-12">
+                                                <div
+                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                    <h6 class="pr-12 mb-0 primary-color">Share this product :</h6>
+                                                    <ul class="social-link text-md-right">
+                                                        <li class="d-inline-block">
+                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul><!-- social-link -->
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div> <!-- .row -->
+                                    </div>
+                                </div><!-- /modal-body -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <!-- Modal2 start -->
+                <div class="modal fade" id="exampleModal-p2" tabindex="-2" role="dialog"
+                    aria-labelledby="exampleModal-p1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="close-icon float-right pt-10 pr-10">
+                                <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                    aria-label="Close">
+                                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-content border-0">
+                                <div class="modal-body pl-50 pr-50 pt-10 pb-20">
+                                    <div class="blog-modal-img">
+                                        <img class="w-100"
+                                            src="{{ asset('front/assets') }}/images/portfolio/port-img2-large.jpg"
+                                            alt="product image 02">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                            <div class="content-wrapper">
+                                                <h2 class="modal-title">eThemeStudio Custom CMS</h2>
+                                                <p>
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum
+                                                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                    ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Dignissimos laudantium fuga molestiae, aut eius minus
+                                                    reprehenderit.
+                                                </p>
+                                                <p class="mb-0">
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div><!-- /col -->
+                                        <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                            <div class="meta-wrapper form-bg mt-60 pt-40 pb-45 pr-20 pl-45 mt-40 mb-10">
+                                                <ul class="item-meta">
+                                                    <li>Project Type : <span class="pl-2 openS-font-family">Graphic
+                                                            Design</span></li>
+                                                    <li>Clien : <span class="pl-2 openS-font-family">Juwel
+                                                            Khan</span></li>
+                                                    <li>Duration :<span class="pl-2 openS-font-family">2
+                                                            Weeks</span></li>
+                                                    <li>Task : <span class="pl-2 openS-font-family">UI/UX,
+                                                            Frontend</span></li>
+                                                    <li>Budget : <span class="pl-2 openS-font-family">$2000</span>
+                                                    </li>
+                                                </ul>
+                                                <a href="#"
+                                                    class="btn position-relative over-hidden text-white theme-bg theme-border2 text-uppercase mt-20 pt-2 pb-2">View
+                                                    Live</a>
+                                            </div>
+                                        </div><!-- /col -->
+                                    </div><!-- /row -->
+                                    <div class="pro-modal-footer mt-30 mb-45">
+                                        <div class="row align-items-center justify-content-md-between">
+                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                <div class="modal-tags d-sm-flex align-items-center pt-25">
+                                                    <h6 class="mb-0 pr-15 black-color">Tags :</h6>
+                                                    <ul class="tag-list">
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Web
+                                                                Design</a>
+                                                        </li>
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Social
+                                                                Media</a>
+                                                        </li>
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Product</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- /col -->
+                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-10 col-12">
+                                                <div
+                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                    <h6 class="pr-12 mb-0">Share this product :</h6>
+                                                    <ul class="social-link text-md-right">
+                                                        <li class="d-inline-block">
+                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul><!-- social-link -->
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div> <!-- .row -->
+                                    </div>
+                                </div><!-- /modal-body -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <!-- Modal3 start -->
+                <div class="modal fade" id="exampleModal-p3" tabindex="-3" role="dialog"
+                    aria-labelledby="exampleModal-p1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="close-icon float-right pt-10 pr-10">
+                                <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                    aria-label="Close">
+                                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-content border-0">
+                                <div class="modal-body pl-50 pr-50 pt-10 pb-20">
+                                    <div class="blog-modal-img">
+                                        <img class="w-100"
+                                            src="{{ asset('front/assets') }}/images/portfolio/port-img3-large.jpg"
+                                            alt="product image 02">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                            <div class="content-wrapper">
+                                                <h2 class="modal-title">eThemeStudio Custom CMS</h2>
+                                                <p>
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum
+                                                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                    ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Dignissimos laudantium fuga molestiae, aut eius minus
+                                                    reprehenderit.
+                                                </p>
+                                                <p class="mb-0">
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div><!-- /col -->
+                                        <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                            <div class="meta-wrapper form-bg mt-60 pt-40 pb-45 pr-20 pl-45 mt-40 mb-10">
+                                                <ul class="item-meta">
+                                                    <li>Project Type : <span class="pl-2 openS-font-family">Graphic
+                                                            Design</span></li>
+                                                    <li>Clien : <span class="pl-2 openS-font-family">Juwel
+                                                            Khan</span></li>
+                                                    <li>Duration :<span class="pl-2 openS-font-family">2
+                                                            Weeks</span></li>
+                                                    <li>Task : <span class="pl-2 openS-font-family">UI/UX,
+                                                            Frontend</span></li>
+                                                    <li>Budget : <span class="pl-2 openS-font-family">$2000</span>
+                                                    </li>
+                                                </ul>
+                                                <a href="#"
+                                                    class="btn position-relative over-hidden text-white theme-bg theme-border2 text-uppercase mt-20 pt-2 pb-2">View
+                                                    Live</a>
+                                            </div>
+                                        </div><!-- /col -->
+                                    </div><!-- /row -->
+                                    <div class="pro-modal-footer mt-30 mb-45">
+                                        <div class="row align-items-center justify-content-md-between">
+                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                <div class="modal-tags d-sm-flex align-items-center pt-25">
+                                                    <h6 class="mb-0 pr-15 black-color">Tags :</h6>
+                                                    <ul class="tag-list">
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Web
+                                                                Design</a>
+                                                        </li>
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Social
+                                                                Media</a>
+                                                        </li>
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Product</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- /col -->
+                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-10 col-12">
+                                                <div
+                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                    <h6 class="pr-12 mb-0">Share this product :</h6>
+                                                    <ul class="social-link text-md-right">
+                                                        <li class="d-inline-block">
+                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul><!-- social-link -->
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div> <!-- .row -->
+                                    </div>
+                                </div><!-- /modal-body -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <!-- Modal4 start -->
+                <div class="modal fade" id="exampleModal-p4" tabindex="-4" role="dialog"
+                    aria-labelledby="exampleModal-p1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="close-icon float-right pt-10 pr-10">
+                                <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                    aria-label="Close">
+                                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                </button>
+                            </div>
+                            <div class="modal-content border-0">
+                                <div class="modal-body pl-50 pr-50 pt-10 pb-20">
+                                    <div class="blog-modal-img">
+                                        <img class="w-100"
+                                            src="{{ asset('front/assets') }}/images/portfolio/port-img4-large.jpg"
+                                            alt="product image 02">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                            <div class="content-wrapper">
+                                                <h2 class="modal-title">eThemeStudio Custom CMS</h2>
+                                                <p>
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum
+                                                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                    ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Dignissimos laudantium fuga molestiae, aut eius minus
+                                                    reprehenderit.
+                                                </p>
+                                                <p class="mb-0">
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in culpa qui officia
+                                                    deserunt mollit anim id est laborum.
+                                                </p>
+                                            </div>
+                                        </div><!-- /col -->
+                                        <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                            <div class="meta-wrapper form-bg mt-60 pt-40 pb-45 pr-20 pl-45 mt-40 mb-10">
+                                                <ul class="item-meta">
+                                                    <li>Project Type : <span class="pl-2 openS-font-family">Graphic
+                                                            Design</span></li>
+                                                    <li>Clien : <span class="pl-2 openS-font-family">Juwel
+                                                            Khan</span></li>
+                                                    <li>Duration :<span class="pl-2 openS-font-family">2
+                                                            Weeks</span></li>
+                                                    <li>Task : <span class="pl-2 openS-font-family">UI/UX,
+                                                            Frontend</span></li>
+                                                    <li>Budget : <span class="pl-2 openS-font-family">$2000</span>
+                                                    </li>
+                                                </ul>
+                                                <a href="#"
+                                                    class="btn position-relative over-hidden text-white theme-bg theme-border2 text-uppercase mt-20 pt-2 pb-2">View
+                                                    Live</a>
+                                            </div>
+                                        </div><!-- /col -->
+                                    </div><!-- /row -->
+                                    <div class="pro-modal-footer mt-30 mb-45">
+                                        <div class="row align-items-center justify-content-md-between">
+                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                <div class="modal-tags d-sm-flex align-items-center pt-25">
+                                                    <h6 class="mb-0 pr-15 black-color">Tags :</h6>
+                                                    <ul class="tag-list">
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Web
+                                                                Design</a>
+                                                        </li>
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Social
+                                                                Media</a>
+                                                        </li>
+                                                        <li class="d-inline-block pr-10">
+                                                            <a class="d-block" href="#">Product</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- /col -->
+                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-10 col-12">
+                                                <div
+                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                    <h6 class="pr-15 mb-0">Share
+                                                        this product
+                                                        :</h6>
+                                                    <ul class="social-link text-md-right">
+                                                        <li class="d-inline-block">
+                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-google-plus-g"></i></a>
+                                                        </li>
+                                                        <li class="d-inline-block">
+                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul><!-- social-link -->
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div> <!-- .row -->
+                                    </div>
+                                </div><!-- /modal-body -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+            </div><!-- /container -->
+        </div><!-- /portfolio-wrapper -->
+    </div> --}}
+    <!-- portfolio-area-end -->
+
+
+
+    <!-- ====== fun-fact-area-start
+            ==================================================== -->
+    {{-- <div class="fun-fact-area fun-fact-bg position-relative over-hidden pt-150 pb-120" data-aos="fade-up"
+        data-aos-duration="1800">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5  col-lg-6  col-md-12 col-sm- col-">
+                    <div class="fun-fact-content mb-50 mr-lg-2 mr-xl-0">
+                        <div class="position-relative">
+                            <div class="title">
+                                <span class="theme-color text-uppercase d-block mb-1 mt--5">Fun Facts</span>
+                                <h2 class="mb-30 text-white">I Develop System that Works</h2>
+                            </div><!-- /title -->
+                        </div>
+                        <p>Sed ut perspiciatis unde omnis iste natus kobita tumi sopno charini hoye
+                            khbor nio na sit volup sundori toma amar tumi nili mar tatem accusantium dolore.</p>
+                    </div><!-- fun-fact-content -->
+                </div><!-- /col -->
+
+                <div class="col-xl-6 offset-xl-1 col-lg-6  col-md-12  col-sm- col-">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-10">
+                            <div class="single-fact d-block d-flex align-items-center  border-radius10 mb-30">
+                                <div class="mr-25 d-flex align-content-start justify-content-center">
+                                    <span class="theme-color d-inline-block counter">12</span>
+                                </div>
+                                <h3 class="text-white mb-0">Years of <br> Experience</h3>
+                            </div><!-- /single-fact -->
+                        </div><!-- /col -->
+
+                        <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-10">
+                            <div class="single-fact d-block d-flex align-items-center border-radius10 mb-30">
+                                <div class="mr-25 d-flex align-content-start justify-content-center">
+                                    <span class="theme-color d-inline-block counter">2</span>
+                                    <span class="per d-inline-block theme-color">K</span>
+                                </div>
+                                <h3 class="text-white mb-0">Total <br> Clients</h3>
+                            </div><!-- /single-fact -->
+                        </div><!-- /col -->
+
+                        <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-10">
+                            <div class="single-fact d-block d-flex align-items-center border-radius10 mb-30">
+                                <div class="mr-25 d-flex align-content-start justify-content-center">
+                                    <span class="theme-color d-inline-block counter">4</span>
+                                    <span class="per d-inline-block theme-color">K</span>
+                                </div>
+                                <h3 class="text-white mb-0">Projects <br> Completed</h3>
+                            </div><!-- /single-fact -->
+                        </div><!-- /col -->
+
+                        <div class="col-xl-6 col-lg-6  col-md-6  col-sm-6 col-10">
+                            <div class="single-fact d-block d-flex align-items-center border-radius10 mb-30">
+                                <div class="mr-25 d-flex align-content-start justify-content-center">
+                                    <span class="theme-color d-inline-block counter">30</span>
+                                </div>
+                                <h3 class="text-white mb-0">Digital <br> Products</h3>
+                            </div><!-- /single-fact -->
+                        </div><!-- /col -->
+
+                    </div><!-- /row -->
+                </div><!-- /col -->
+
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+        <div class="fact-style1 position-absolute d-none d-md-inline-block">
+            <img src="{{ asset('front/assets') }}/images/shape/fact-icon1.png" alt="shape 1">
+        </div><!-- /fact-style1 -->
+        <div class="fact-style2 position-absolute d-none d-md-inline-block">
+            <img src="{{ asset('front/assets') }}/images/shape/fact-icon2.png" alt="shape 2">
+        </div><!-- /fact-style2 -->
+    </div> --}}
+    <!-- fun-fact-area-end  -->
+
+
+
+    <!-- ====== award-area-start
+            ==================================================== -->
+    {{-- <div class="award-area over-hidden position-relative z-index11 pt-160 pb-170">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                    <div class="title text-center">
+                        <span class="theme-color text-uppercase d-block mb-6">Success Stories</span>
+                        <h2>Awards & Achivements</h2>
+                    </div><!-- /title -->
+                </div><!-- /col -->
+            </div><!-- /row -->
+            <div class="award-wrapper mt-70">
+                <div class="row align-items-start theme-border-top award-margin pt-40 pb-35">
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-11 col-12">
+                        <div class="award-logo mt-10 mb-20">
+                            <a href="#" class="d-block">
+                                <img src="{{ asset('front/assets') }}/images/award/award-logo1.png" alt="award logo 1">
+                            </a>
+                        </div><!-- /award-logo -->
+                    </div><!-- /col -->
+                    <div class="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
+                        <div class="award-content">
+                            <h3 class="mb-10">Best Developer</h3>
+                            <p class="meta-text-color">2022</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
+                        <div class="award-content">
+                            <h3 class="mb-10">Developer Association</h3>
+                            <p class="meta-text-color">New York, Usa</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-4  col-lg-4  col-md-4  col-sm-11 col-12">
+                        <div class="award-content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                dolore.</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row align-items-start theme-border-top award-margin pt-40 pb-35">
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-11 col-12">
+                        <div class="award-logo mt-10 mb-20">
+                            <a href="#" class="d-block">
+                                <img src="{{ asset('front/assets') }}/images/award/award-logo2.png" alt="award logo 2">
+                            </a>
+                        </div><!-- /award-logo -->
+                    </div><!-- /col -->
+                    <div class="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
+                        <div class="award-content">
+                            <h3 class="mb-10">Developer of the Year</h3>
+                            <p class="meta-text-color">2021</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
+                        <div class="award-content">
+                            <h3 class="mb-10">Dev Internatioal</h3>
+                            <p class="meta-text-color">London, England</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-4  col-lg-4  col-md-4  col-sm-11 col-12">
+                        <div class="award-content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                dolore.</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row align-items-start theme-border-top theme-border-bottom award-margin pt-40 pb-35">
+                    <div class="col-xl-2  col-lg-2  col-md-2  col-sm-11 col-12">
+                        <div class="award-logo mt-10 mb-20">
+                            <a href="#" class="d-block">
+                                <img src="{{ asset('front/assets') }}/images/award/award-logo3.png" alt="award logo 3">
+                            </a>
+                        </div><!-- /award-logo -->
+                    </div><!-- /col -->
+                    <div class="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
+                        <div class="award-content">
+                            <h3 class="mb-10">Fastest Coder</h3>
+                            <p class="meta-text-color">2019</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-3  col-lg-3  col-md-3  col-sm-11 col-12">
+                        <div class="award-content">
+                            <h3 class="mb-10">Amazing Programmer</h3>
+                            <p class="meta-text-color">Dhaka, Bangladesh</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                    <div class="col-xl-4  col-lg-4  col-md-4  col-sm-11 col-12">
+                        <div class="award-content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                dolore.</p>
+                        </div><!-- /award-content -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /award-wrapper -->
+        </div><!-- /container -->
+    </div> --}}
+    <!-- award-area-end  -->
+
+
+
+    <!-- ====== experience-area-start
+            ==================================================== -->
+    {{-- <div class="experience-area over-hidden pb-165">
+        <div class="experience-wrapper extra-width position-relative">
+            <div class="experience-bg-img left-0 top-0 bottom-0 bg-cover no-repeat w-50 position-absolute"
+                data-background="images/work/work-img.jpg"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-none">
+                        <div class="experience-img" data-aos="fade-right" data-aos-duration="2000">
+                        </div><!-- /experience-img -->
+                    </div><!-- /col -->
+                    <div class="col-xl-6 col-lg-6 offset-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="experience-margin mt-160 pb-80 pl-100 mb-50">
+                            <div class="position-relative">
+                                <div class="title">
+                                    <span class="theme-color text-uppercase d-block mb-6 mt--5">Work
+                                        Experience</span>
+                                    <h2 class="mb-25">My Experience</h2>
+                                    <p>Sed ut perspiciatis unde omnis iste natus kobita tumi sopno charini hoye
+                                        khbor nio na sit voluptatem.</p>
+                                </div><!-- /title -->
+                            </div>
+                            <div class="experience-wrapper pt-25">
+                                <ul class="experience-content">
+                                    <li class="mb-32 d-flex align-items-start rotate-hover">
+                                        <div
+                                            class="experience-ser-icon d-inline-block text-center mt-10 mr-30 transition3">
+                                            <span class="theme-color d-inline-block">
+                                                <span class="d-block rotate flat-family flaticon-briefcase"></span>
+                                            </span>
+                                        </div><!-- /experience-ser-icon -->
+                                        <div class="experience-service-text d-inline-block">
+                                            <h3 class="mb-2">Senior System Engineer</h3>
+                                            <h4>eThemeStudio <span class="meta-text-color openS-font-family"> (
+                                                    2018
+                                                    - Running )</span></h4>
+                                            <p class="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab
+                                                illo inven tore veritatis et quasi architecto beatae et vitae ullam
+                                                molesti quae quasi.</p>
+                                        </div>
+                                    </li>
+                                    <li class="mb-32 d-flex align-items-start rotate-hover">
+                                        <div
+                                            class="experience-ser-icon d-inline-block text-center mt-10 mr-30 transition3">
+                                            <span class="theme-color d-inline-block">
+                                                <span class="d-block rotate flat-family flaticon-briefcase"></span>
+                                            </span>
+                                        </div><!-- /experience-ser-icon -->
+                                        <div class="experience-service-text d-inline-block">
+                                            <h3 class="mb-2">Data Architect</h3>
+                                            <h4>Easy Computers <span class="meta-text-color openS-font-family">(
+                                                    2015 - 2018 )</span></h4>
+                                            <p class="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab
+                                                illo inven tore veritatis et quasi architecto beatae et vitae
+                                                ullam molesti quae quasi.</p>
+                                        </div>
+                                    </li>
+                                    <li class="mb-32 d-flex align-items-start rotate-hover">
+                                        <div
+                                            class="experience-ser-icon d-inline-block text-center mt-10 mr-30 transition3">
+                                            <span class="theme-color d-inline-block">
+                                                <span class="d-block rotate flat-family flaticon-briefcase"></span>
+                                            </span>
+                                        </div><!-- /experience-ser-icon -->
+                                        <div class="experience-service-text d-inline-block">
+                                            <h3 class="mb-2">Web Developer</h3>
+                                            <h4>Bangla College <span class="meta-text-color openS-font-family">(
+                                                    2012 - 2015 )</span></h4>
+                                            <p class="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab
+                                                illo inven tore veritatis et quasi architecto beatae et vitae
+                                                ullam molesti quae quasi.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div><!-- /experience-wrapper -->
+                        </div><!-- /experience-margin -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div><!-- /experience-wrapper -->
+    </div> --}}
+    <!-- experience-area-end -->
+
+
+
+    <!-- ====== education-area-start
+            ==================================================== -->
+    {{-- <div class="education-area over-hidden">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-xl-6 col-lg-6  col-md-12 col-sm-12 col-12">
+                    <div class="position-relative">
+                        <div class="title">
+                            <span class="theme-color text-uppercase d-block mb-1">Education</span>
+                            <h2 class="mb-25">My Education</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus kobita tumi sopno charini hoye khbor
+                                nio na sit voluptatem accusantium dolore.</p>
+                        </div><!-- /title -->
+                    </div>
+                    <div class="education-wrapper mr-20 pt-25 mb-50">
+                        <ul class="education-content">
+                            <li class="mb-32 d-flex align-items-start rotate-hover">
+                                <div class="experience-ser-icon d-inline-block text-center mt-10 mr-30 transition3">
+                                    <span class="theme-color d-inline-block">
+                                        <span class="d-block rotate flat-family flaticon-graduation-cap"></span>
+                                    </span>
+                                </div><!-- /education-ser-icon -->
+                                <div class="experience-service-text d-inline-block">
+                                    <h3 class="mb-2">Masters in Computer Science</h3>
+                                    <h4>New York University <span class="meta-text-color openS-font-family"> ( 2012
+                                            - 2016 )</span></h4>
+                                    <p class="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab illo
+                                        inven tore veritatis et quasi architecto beatae vitae.</p>
+                                </div>
+                            </li>
+                            <li class="mb-32 d-flex align-items-start rotate-hover">
+                                <div class="experience-ser-icon d-inline-block text-center mt-10 mr-30 transition3">
+                                    <span class="theme-color d-inline-block">
+                                        <span class="d-block rotate flat-family flaticon-graduation-cap"></span>
+                                    </span>
+                                </div><!-- /education-ser-icon -->
+                                <div class="experience-service-text d-inline-block">
+                                    <h3 class="mb-2">Bachelor in Computer Engineering</h3>
+                                    <h4>Dhaka University <span class="meta-text-color openS-font-family"> ( 2008 -
+                                            2011 )</span></h4>
+                                    <p class="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab illo
+                                        inven tore veritatis et quasi architecto beatae vitae.</p>
+                                </div>
+                            </li>
+                            <li class="mb-32 d-flex align-items-start rotate-hover">
+                                <div class="experience-ser-icon d-inline-block text-center mt-10 mr-30 transition3">
+                                    <span class="theme-color d-inline-block">
+                                        <span class="d-block rotate flat-family flaticon-graduation-cap"></span>
+                                    </span>
+                                </div><!-- /education-ser-icon -->
+                                <div class="experience-service-text d-inline-block">
+                                    <h3 class="mb-2">Diploma in Graphic Design</h3>
+                                    <h4>Bangla College <span class="meta-text-color openS-font-family"> ( 2006 -
+                                            2008 )</span></h4>
+                                    <p class="mb-0 mt-15">Ludantium totam rem aperia meaque ipsa quae ab illo
+                                        inven tore veritatis et quasi architecto beatae vitae.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- /education-wrapper -->
+                </div><!-- /col -->
+                <div
+                    class="col-xl-5 offset-xl-1 col-lg-6 col-md-12 col-sm-12 col-12 d-lg-blok d-flex align-items-center justify-content-center">
+                    <div class="education-img position-relative text-center" data-aos="fade-left"
+                        data-aos-duration="2000">
+                        <img class="border-radius10" src="{{ asset('front/assets') }}/images/education/education-img.jpg"
+                            alt="education image">
+                    </div><!-- /education-img -->
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div> --}}
+    <!-- education-area-end -->
+
+
+    <!-- ====== skill-area-start
+            ==================================================== -->
+    {{-- <div id="skills" class="skill-area over-hidden position-relative pt-130 pb-110">
+
+        <div class="marquee-w mb-125">
+            <div class="marquee">
+                <span class="pl-4">Senior Website Developer from New York *</span>
+                <span class="pl-4">Senior Website Developer from New York *</span>
+            </div>
+            <div class="marquee marquee2 pb-1">
+                <span class="pl-4">I’m Open for new projects * Let’s Work Together *</span>
+                <span class="pl-4">I’m Open for new projects * Let’s Work Together *</span>
+            </div>
+        </div><!-- /marquee -->
+
+        <div class="container">
+            <div class="row align-items-start justify-content-center">
+                <div class="col-xl-5 col-lg-5  col-md-12  col-sm-12 col-12">
+                    <div class="position-relative">
+                        <div class="title mb-50">
+                            <span class="theme-color text-uppercase d-block mb-6">My Skill</span>
+                            <h2 class="mb-25">Growing Over Times</h2>
+                            <p>Sed ut perspiciatis unde omnis iste natus Sed ut perspiciatis unde omnis iste natus
+                                kobita tumi sopno charini hoye khbor nio na sit voluptatem accusantium dolore.</p>
+                        </div><!-- /title -->
+                    </div>
+                </div><!-- /col -->
+                <div class="col-xl-6 col-lg-7 offset-xl-1 col-md-12  col-sm-12 col-12" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1400">
+                    <div class="row justify-content-center mt-10">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-9 mb-30">
+                            <div class="single-skill mb-15 text-center text-lg-left">
+                                <div class="progress-circular over-hidden">
+                                    <input type="text" class="knob" value="0" data-rel="80" data-linecap=""
+                                        data-width="190" data-height="190" data-bgcolor="#d9e1e2" data-fgcolor="#80db66"
+                                        data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                    <h4 class="mt-15 text-center">Web Development</h4>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-9 mb-30">
+                            <div class="single-skill text-center">
+                                <div class="progress-circular over-hidden">
+                                    <input type="text" class="knob" value="0" data-rel="95" data-linecap=""
+                                        data-width="190" data-height="190" data-bgcolor="#d9e1e2" data-fgcolor="#80db66"
+                                        data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                    <h4 class="mt-15 text-center">Hardware Development</h4>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-9 mb-30">
+                            <div class="single-skill mb-15 text-center text-lg-left">
+                                <div class="progress-circular over-hidden">
+                                    <input type="text" class="knob" value="0" data-rel="90" data-linecap=""
+                                        data-width="190" data-height="190" data-bgcolor="#d9e1e2" data-fgcolor="#80db66"
+                                        data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                    <h4 class="mt-15 text-center">Software Development</h4>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-9 mb-30">
+                            <div class="single-skill text-center">
+                                <div class="progress-circular over-hidden">
+                                    <input type="text" class="knob" value="0" data-rel="75" data-linecap=""
+                                        data-width="190" data-height="190" data-bgcolor="#d9e1e2" data-fgcolor="#80db66"
+                                        data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                    <h4 class="mt-15 text-center">System Application</h4>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-9 mb-30">
+                            <div class="single-skill text-center text-lg-right">
+                                <div class="progress-circular over-hidden">
+                                    <input type="text" class="knob" value="0" data-rel="60" data-linecap=""
+                                        data-width="190" data-height="190" data-bgcolor="#d9e1e2" data-fgcolor="#80db66"
+                                        data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                    <h4 class="mt-15 text-center">Project management</h4>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-9 mb-30">
+                            <div class="single-skill text-center text-lg-right">
+                                <div class="progress-circular over-hidden">
+                                    <input type="text" class="knob" value="0" data-rel="85" data-linecap=""
+                                        data-width="190" data-height="190" data-bgcolor="#d9e1e2" data-fgcolor="#80db66"
+                                        data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                    <h4 class="mt-15 text-center">Data Administration</h4>
+                                </div>
+                            </div>
+                        </div><!-- /col -->
+                    </div><!-- /row -->
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+        <div class="skill-text-style position-absolute z-index-1 d-none d-md-inline-block">
+            <span class="d-inline-block section-text-color">Skills</span>
+        </div><!-- /intro-feature-text -->
+
+    </div> --}}
+    <!-- skill-area-end -->
+
+
+
+    <!-- ====== service-area-start
+            ==================================================== -->
+    {{-- <div id="service" class="service-area primary-bg over-hidden pt-160 pb-145">
+        <div class="service-wrapper position-relative">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                        <div class="title text-center">
+                            <span class="theme-color text-uppercase d-block mb-6">Service</span>
+                            <h2 class="text-white">What I offer</h2>
+                        </div><!-- /title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row service-wrappers mt-80">
+                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" data-aos-duration="1000" data-aos-delay="500">
+                        <div
+                            class="single-service shadow-hover transition3 white-bg border-radius10 pl-50 pr-50 pt-65 pb-55 mb-25">
+                            <div class="row">
+                                <div class="col-xl-3  col-lg-3  col-md-6  col-sm-4 col-4 text-lg-center">
+                                    <div class="service-ser-icon d-inline-block text-center position-relative mb-15">
+                                        <img class="position-relative z-index1"
+                                            src="{{ asset('front/assets') }}/images/icon/ser-icon1.png" alt="icon">
+                                        <div
+                                            class="service-small-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute">
+                                        </div>
+                                        <div
+                                            class="service-large-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute">
+                                        </div>
+                                    </div><!-- /service-ser-icon -->
+                                </div><!-- /col -->
+                                <div class="col-xl-9  col-lg-9  col-md-12  col-sm-12 col-12">
+                                    <div class="service-text d-inline-block ml-xl-2">
+                                        <h3 class="mb-15">Web Development</h3>
+                                        <p class="mb-0">Ludantium totam rem aperia meaququae ab tatis et quasi
+                                            architecto beatae vit dunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div><!-- /col -->
+                            </div>
+                        </div><!-- /single-service -->
+                    </div><!-- /col -->
+                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" data-aos-duration="1200" data-aos-delay="500">
+                        <div
+                            class="single-service shadow-hover transition3 white-bg border-radius10 pl-50 pr-50 pt-65 pb-55 mb-25">
+                            <div class="row">
+                                <div class="col-xl-3  col-lg-3  col-md-6  col-sm-4 col-4 text-lg-center">
+                                    <div class="service-ser-icon d-inline-block text-center position-relative mb-15">
+                                        <img class="position-relative z-index1"
+                                            src="{{ asset('front/assets') }}/images/icon/ser-icon2.png" alt="icon">
+                                        <div
+                                            class="service-small-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute">
+                                        </div>
+                                        <div
+                                            class="service-large-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute">
+                                        </div>
+                                    </div><!-- /service-ser-icon -->
+                                </div><!-- /col -->
+                                <div class="col-xl-9  col-lg-9  col-md-12  col-sm-12 col-12">
+                                    <div class="service-text d-inline-block ml-xl-2">
+                                        <h3 class="mb-15">Software Development</h3>
+                                        <p class="mb-0">Ludantium totam rem aperia meaququae ab tatis et quasi
+                                            architecto beatae vit dunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div><!-- /col -->
+                            </div>
+                        </div><!-- /single-service -->
+                    </div><!-- /col -->
+                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                        <div
+                            class="single-service shadow-hover transition3 white-bg border-radius10 pl-50 pr-50 pt-65 pb-55 mb-25">
+                            <div class="row">
+                                <div class="col-xl-3  col-lg-3  col-md-6  col-sm-4 col-4 text-lg-center">
+                                    <div class="service-ser-icon d-inline-block text-center position-relative mb-15">
+                                        <img class="position-relative z-index1"
+                                            src="{{ asset('front/assets') }}/images/icon/ser-icon3.png" alt="icon">
+                                        <div
+                                            class="service-small-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute">
+                                        </div>
+                                        <div
+                                            class="service-large-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute">
+                                        </div>
+                                    </div><!-- /service-ser-icon -->
+                                </div><!-- /col -->
+                                <div class="col-xl-9  col-lg-9  col-md-12  col-sm-12 col-12">
+                                    <div class="service-text d-inline-block ml-xl-2">
+                                        <h3 class="mb-15">System Development</h3>
+                                        <p class="mb-0">Ludantium totam rem aperia meaququae ab tatis et quasi
+                                            architecto beatae vit dunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div><!-- /col -->
+                            </div>
+                        </div><!-- /single-service -->
+                    </div><!-- /col -->
+                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-12 col-12" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
+                        <div
+                            class="single-service shadow-hover transition3 white-bg border-radius10 pl-50 pr-50 pt-65 pb-55 mb-25">
+                            <div class="row">
+                                <div class="col-xl-3  col-lg-3  col-md-6  col-sm-4 col-4 text-lg-center">
+                                    <div class="service-ser-icon d-inline-block text-center position-relative mb-15">
+                                        <img class="position-relative z-index1"
+                                            src="{{ asset('front/assets') }}/images/icon/ser-icon4.png" alt="icon">
+                                        <div
+                                            class="service-small-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute">
+                                        </div>
+                                        <div
+                                            class="service-large-circle service-circle rounded-circle transition5 secondary-bg d-inline-block position-absolute">
+                                        </div>
+                                    </div><!-- /service-ser-icon -->
+                                </div><!-- /col -->
+                                <div class="col-xl-9  col-lg-9  col-md-12  col-sm-12 col-12">
+                                    <div class="service-text d-inline-block ml-xl-2">
+                                        <h3 class="mb-15">Security Analysis</h3>
+                                        <p class="mb-0">Ludantium totam rem aperia meaququae ab tatis et quasi
+                                            architecto beatae vit dunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div><!-- /col -->
+                            </div>
+                        </div><!-- /single-service -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+
+            <div class="about-icon position-absolute d-none d-md-inline-block z-index1 zoom-animation">
+                <img src="{{ asset('front/assets') }}/images/shape/content-shape2.png" alt="shape 2">
+            </div><!-- /intro-feature-icon -->
+
+        </div><!-- /service-wrapper -->
+    </div> --}}
+    <!-- service-area-end -->
+
+
+
+    <!-- ====== pricing-area-start
+            ==================================================== -->
+    {{-- <div class="pricing-area over-hidden pt-160 pb-140">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                    <div class="title text-center">
+                        <span class="theme-color text-uppercase d-block mb-6">Let’s Start Working</span>
+                        <h2>Pricing Plans</h2>
+                    </div><!-- /title -->
+                </div><!-- /col -->
+            </div><!-- /row -->
+            <div class="row price-wrapper justify-content-center mt-80">
+                <div class="col-xl-4  col-lg-4  col-md-6  col-sm-8 col-12" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1200">
+                    <div
+                        class="single-price white-bg shadow-hover transition3 border-radius10 pl-45 pr-45 pt-45 pb-50 mb-30">
+                        <h3 class="theme-border-bottom pb-25">Hourly</h3>
+                        <p class="mt-20 mb-10 f-500 primary-color "><span class="theme-color rate pr-12">$99</span>/
+                            Per Hour</p>
+                        <ul class="price-list">
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">One time contract</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Flexible Contract</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Source Files</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="disable d-block text-center"><i class="far fa-times"></i></span>
+                                <p class="mb-0 ml-20">Support</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="disable d-inline-block text-center"><i class="far fa-times"></i></span>
+                                <p class="mb-0 ml-20">Updates</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn position-relative over-hidden theme-bg text-uppercase mt-25">Start
+                            now</a>
+                    </div><!-- / -->
+                </div><!-- /col -->
+                <div class="col-xl-4  col-lg-4  col-md-6  col-sm-8 col-12" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1400">
+                    <div
+                        class="single-price white-bg shadow-hover transition3 border-radius10 pl-45 pr-45 pt-45 pb-50 mb-30">
+                        <h3 class="theme-border-bottom pb-25">Project Basis</h3>
+                        <p class="mt-20 mb-10 f-500 primary-color "><span class="theme-color rate pr-12">$69</span>/
+                            Per Hour</p>
+                        <ul class="price-list">
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">One time contract</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Flexible Contract</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Source Files</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Support</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="disable d-inline-block text-center"><i class="far fa-times"></i></span>
+                                <p class="mb-0 ml-20">Updates</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn position-relative over-hidden theme-bg text-uppercase mt-25">Start
+                            now</a>
+                    </div><!-- / -->
+                </div><!-- /col -->
+                <div class="col-xl-4  col-lg-4  col-md-6  col-sm-8 col-12" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="1600">
+                    <div
+                        class="single-price white-bg shadow-hover transition3 border-radius10 pl-45 pr-45 pt-45 pb-50 mb-30">
+                        <h3 class="theme-border-bottom pb-25">Monthly</h3>
+                        <p class="mt-20 mb-10 f-500 primary-color "><span class="theme-color rate pr-12">$39</span>/
+                            Per Hour</p>
+                        <ul class="price-list">
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">One time contract</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Flexible Contract</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Source Files</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Support</p>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <span class="theme-color d-inline-block text-center"><i class="far fa-check"></i></span>
+                                <p class="mb-0 ml-20">Updates</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn position-relative over-hidden theme-bg text-uppercase mt-25">Start
+                            now</a>
+                    </div><!-- / -->
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div> --}}
+    <!-- pricing-area-end -->
+
+
+    <!-- ====== testimonial-area-start
+            ==================================================== -->
+    {{-- <div class="testimonial-area position-relative over-hidden">
+        <div class="container">
+            <div class="testimonial-bg section-bg pt-170 pb-170 position-relative">
+                <div class="row align-items-start justify-content-center">
+                    <div class="col-xl-7 col-lg-7 col-md-12  col-sm-12 col-12">
+                        <div class="position-relative">
+                            <div class="title">
+                                <span class="theme-color text-uppercase d-block mb-6">Testimonials</span>
+                                <h2 class="mb-20">What People Say</h2>
+                            </div><!-- /title -->
+                        </div>
+                        <div class="testimonial-wrapper position-relative mt-40 pb-50">
+                            <div class="quit d-inline-block position-absolute left-0">
+                                <img class="theme-color"
+                                    src="{{ asset('front/assets') }}/images/testimonial/testimonial-icon.png"
+                                    alt="quote">
+                            </div>
+                            <div class="testimonial-active pl-80 pr-90">
+                                <div class="testimonial-content">
+                                    <blockquote
+                                        class="testimonial-text position-relative mb-0 font-italic openS-font-family text-color">
+                                        Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia
+                                        deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis
+                                        iste natus error sit volup tatem gotiraz bole ami ke</blockquote>
+                                    <div class="testi-info d-flex align-items-center mt-40">
+                                        <div class="testi-avatar mr-25">
+                                            <img class="rounded-circle"
+                                                src="{{ asset('front/assets') }}/images/testimonial/author-img.jpg"
+                                                alt="author image 1">
+                                        </div><!-- /testi-avatar -->
+                                        <div class="avatar-info">
+                                            <h5 class="mb-1 text-capitalize">Paul Harrison,</h5>
+                                            <p class="meta-text-color mb-0">eThemeStudio</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /testimonial-content -->
+                                <div class="testimonial-content">
+                                    <blockquote
+                                        class="testimonial-text position-relative mb-0 font-italic openS-font-family text-color">
+                                        Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia
+                                        deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis
+                                        iste natus error sit volup tatem gotiraz bole ami ke</blockquote>
+                                    <div class="testi-info d-flex align-items-center mt-40">
+                                        <div class="testi-avatar mr-25">
+                                            <img class="rounded-circle"
+                                                src="{{ asset('front/assets') }}/images/testimonial/author-img.jpg"
+                                                alt="author image 2">
+                                        </div><!-- /testi-avatar -->
+                                        <div class="avatar-info">
+                                            <h5 class="mb-1 text-capitalize">Paul Harrison,</h5>
+                                            <p class="meta-text-color mb-0">eThemeStudio</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /testimonial-content -->
+                                <div class="testimonial-content">
+                                    <blockquote
+                                        class="testimonial-text position-relative mb-0 font-italic openS-font-family text-color">
+                                        Excepteur sint occaecat cupidatat non proiden sunt in culpa qui officia
+                                        deserunt mollit anim id est laebor um. Sed ut perspiciatis unde omnis
+                                        iste natus error sit volup tatem gotiraz bole ami ke</blockquote>
+                                    <div class="testi-info d-flex align-items-center mt-40">
+                                        <div class="testi-avatar mr-25">
+                                            <img class="rounded-circle"
+                                                src="{{ asset('front/assets') }}/images/testimonial/author-img.jpg"
+                                                alt="author image 3">
+                                        </div><!-- /testi-avatar -->
+                                        <div class="avatar-info">
+                                            <h5 class="mb-1 text-capitalize">Paul Harrison,</h5>
+                                            <p class="meta-text-color mb-0">eThemeStudio</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /testimonial-content -->
+                            </div>
+                        </div><!-- /testimonial-wrapper -->
+                    </div><!-- /col -->
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-11 col-12">
+                        <div class="testimonial-img position-relative z-index1" data-aos="fade-left"
+                            data-aos-duration="1500">
+                            <img class="border-radius10"
+                                src="{{ asset('front/assets') }}/images/testimonial/testimonials-img.jpg"
+                                alt="author image ">
+                        </div><!-- /testimonial-img -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+
+                <div class="intro-feature-text-style testimonial-text-style position-absolute d-none d-md-inline-block">
+                    <span class="d-inline-block">Testim</span>
+                </div><!-- /intro-feature-text -->
+
+            </div><!-- /testimonial-bg -->
+        </div><!-- /container -->
+
+    </div> --}}
+    <!-- testimonial-area-end -->
+
+
+    <!-- ====== brand-area-start
+            ==================================================== -->
+    {{-- <div class="brand-area brand-height over-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                    <ul class="brand-active  mt-70 mb-90">
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img1.png"
+                                    alt="brand logo 1">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img1.png"
+                                    alt="brand logo 1">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img2.png"
+                                    alt="brand logo 2">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img2.png"
+                                    alt="brand logo 2">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img3.png"
+                                    alt="brand logo 3">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img3.png"
+                                    alt="brand logo 3">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img4.png"
+                                    alt="brand logo 4">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img4.png"
+                                    alt="brand logo 4">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img5.png"
+                                    alt="brand logo 5">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img5.png"
+                                    alt="brand logo 5">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img1.png"
+                                    alt="brand logo 1">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img1.png"
+                                    alt="brand logo 1">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img2.png"
+                                    alt="brand logo 2">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img2.png"
+                                    alt="brand logo 2">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img3.png"
+                                    alt="brand logo 3">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img3.png"
+                                    alt="brand logo 3">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img4.png"
+                                    alt="brand logo 4">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img4.png"
+                                    alt="brand logo 4">
+                            </a>
+                        </li>
+                        <li class="d-inline-block position-relative over-hidden">
+                            <a class="single-brand single-brand-out pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-img5.png"
+                                    alt="brand logo 5">
+                            </a>
+                            <a class="single-brand single-brand-hover pt-20 d-block text-center transition3"
+                                href="index.html">
+                                <img class="img" src="{{ asset('front/assets') }}/images/brand/brand-hover-img5.png"
+                                    alt="brand logo 5">
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /col -->
+            </div><!-- /row -->
+            <div class="theme-border-bottom"></div>
+        </div><!-- /container -->
+    </div> --}}
+    <!-- brand-area-end  -->
+
+
+
+    <!-- ====== contact-area-start
+            ==================================================== -->
+    <div id="contact" class="contact-area over-hidden mb-160 mt-155">
+        <div id="hero-btn" class="contact-wrapper position-relative">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                        <div class="title text-center">
+                            <span class="theme-color text-uppercase d-block mb-6">Contact Me</span>
+                            <h2>Let’s Start A New Project</h2>
+                        </div><!-- /title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row">
+                    <div class="col-xl-6 col-lg-5 col-md-12  col-sm-12 col-12">
+                        <div class="contact-wrapper mt-70">
+                            <ul class="contact-info-content">
+                                <li class="contact-location s-contact mb-20 transition-3 d-lg-flex align-items-center">
+                                    <div class="contact-icon d-inline-block text-center theme-bg mr-30">
+                                        <span class="text-white d-inline-block">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </span>
+                                    </div><!-- /contact-icon -->
+                                    <div class="contact-text d-inline-block">
+                                        <h4 class="mb-2">Location</h4>
+                                        <p class="text-color mb-0">20 Bordeshi, London, Usa</p>
+                                    </div>
+                                </li><!-- /contact-location -->
+                                <li class="contact-email s-contact mb-20 transition-3 d-lg-flex  align-items-center">
+                                    <div class="contact-icon d-inline-block text-center theme-bg mr-30">
+                                        <span class="text-white d-inline-block">
+                                            <i class="fas fa-phone-alt"></i>
+                                        </span>
+                                    </div><!-- /contact-icon -->
+                                    <div class="contact-text">
+                                        <h4 class="mb-2">Phone</h4>
+                                        <p class="mb-0">
+                                            <a class="text-color primary-hover d-block" href="#">+123 456
+                                                7890</a>
+                                        </p>
+                                    </div>
+                                </li><!-- /contact-email -->
+                                <li class="contact-phone s-contact mb-20 transition-3 d-lg-flex  align-items-center">
+                                    <div class="contact-icon d-inline-block text-center theme-bg mr-30">
+                                        <span class="text-white d-inline-block">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </div><!-- /contact-icon -->
+                                    <div class="contact-text d-inline-block">
+                                        <h4 class="mb-2">Email</h4>
+                                        <p class="mb-0">
+                                            <a class="text-color primary-hover d-block"
+                                                href="#">hello@thames.com</a>
+                                        </p>
+                                    </div>
+                                </li><!-- /contact-phone -->
+                            </ul><!-- /contact-info-content -->
+                        </div><!-- /contact-wrapper -->
+                    </div><!-- /col -->
+                    <div class="col-xl-6 col-lg-7 col-md-12  col-sm-12 col-12">
+                        <div class="contact-wrapper">
+                            <div class="contact-form mt-45">
+                                <form action="php/mail.php" method="POST" id="contact-form">
+                                    <div class="contact-info pt-20">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12"
+                                                data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="2000">
+                                                <input
+                                                    class="name w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 openS-font-family"
+                                                    type="text" name="inputName" id="inputName"
+                                                    placeholder="Your Name">
+                                                <!-- /name -->
+                                            </div><!-- /col -->
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl6 pr-12 mb-12"
+                                                data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="2500">
+                                                <input
+                                                    class="email w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 openS-font-family"
+                                                    type="email" name="inputEmail" id="inputEmail"
+                                                    placeholder="Your Email">
+                                                <!-- /email -->
+                                            </div><!-- /col -->
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12"
+                                                data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="2000">
+                                                <input
+                                                    class="phone w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 openS-font-family"
+                                                    type="text" name="inputPhone" id="inputPhone"
+                                                    placeholder="Your Phone">
+                                                <!-- /phone -->
+                                            </div><!-- /col -->
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl6 pr-12 mb-12"
+                                                data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="2500">
+                                                <input
+                                                    class="subject w-100 theme-border pl-20 pt-15 pb-15 pr-10 form-color border-radius5 openS-font-family"
+                                                    type="text" name="inputSubject" id="inputSubject"
+                                                    placeholder="Your Subject">
+                                                <!-- /subject -->
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                        <div class="row ">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pl-12 pr-12 mb-12"
+                                                data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="2000">
+                                                <textarea class="massage w-100 theme-border pl-20 pt-15 pr-10 primary-color border-radius5 openS-font-family"
+                                                    name="inputMessage" id="inputMessage" placeholder="Start writing message here"></textarea>
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                        <button
+                                            class="btn position-relative over-hidden text-white d-inline-block theme-bg white-text text-uppercase"
+                                            type="submit" name="submit" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom" data-aos-duration="2500">Submit
+                                            Now</button>
+                                    </div>
+                                </form>
+                                <p class="form-message mt-20"></p>
+                            </div><!-- /contact-form -->
+                        </div><!-- /contact-wrapper -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row">
+                    <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" data-aos-duration="2000" data-aos-delay="500">
+                        <div class="map-wrapper mt-70" id="mapwrapper"> </div>
+                    </div><!-- /col -->
+                </div><!-- /row -->
+            </div><!-- /container -->
+        </div><!-- /contact-wrapper -->
+    </div>
+    <!-- contact-area-end  -->
+
+
+    <!-- ====== blog-area-start
+            ==================================================== -->
+    <div id="blog" class="blog-area over-hidden">
+
+        <div class="marquee-w mb-45">
+            <div class="marquee">
+                <span class="pl-4">Senior Website Developer from New York *</span>
+                <span class="pl-4">Senior Website Developer from New York *</span>
+            </div>
+        </div><!-- /marquee -->
+
+        <div class="blog-wrappers section-bg pt-160 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12  col-md-12  col-sm-12 col-12">
+                        <div class="title">
+                            <span class="theme-color text-uppercase d-block mb-6">Get Updates</span>
+                            <h2>Recent Blog</h2>
+                        </div><!-- /title -->
+                    </div><!-- /col -->
+                </div><!-- /row -->
+                <div class="row justify-content-center blog-wrapper blog-active mt-75">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="single-blog mb-50 shadow-hover transition3">
+                            <div class="blog-img">
+                                <img class="w-100 img transition5"
+                                    src="{{ asset('front/assets') }}/images/blog/blog-img1.jpg" alt="blog image 1">
+                            </div>
+                            <div class="single-blog-content bg-white pl-30 pt-25 pb-15 pr-30">
+                                <ul class="blog-meta">
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-folder"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">Web
+                                            Design</span>
+                                    </li>
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i class="fas fa-user"></i></span>
+                                        <a class="meta-text-color openS-font-family d-inline-block"
+                                            href="#">Admin</a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-comment"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">22</span>
+                                    </li>
+                                </ul><!-- /blog-meta -->
+                                <h3 class="mb-10 mt-1">
+                                    <a class="primary-hover" href="#" data-toggle="modal"
+                                        data-target="#exampleModal-b1">Jim Morrison says when the musics over turn
+                                        off the light</a>
+                                </h3>
+                            </div>
+                        </div><!-- /single-blog -->
+                    </div><!-- /col -->
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="single-blog mb-50 shadow-hover transition3">
+                            <div class="blog-img">
+                                <img class="w-100 img transition5"
+                                    src="{{ asset('front/assets') }}/images/blog/blog-img2.jpg" alt="blog image 2">
+                            </div>
+                            <div class="single-blog-content bg-white pl-30 pt-25 pb-15 pr-30">
+                                <ul class="blog-meta">
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-folder"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">Web
+                                            Design</span>
+                                    </li>
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i class="fas fa-user"></i></span>
+                                        <a class="meta-text-color openS-font-family d-inline-block"
+                                            href="#">Admin</a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-comment"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">22</span>
+                                    </li>
+                                </ul><!-- /blog-meta -->
+                                <h3 class="mb-10 mt-1">
+                                    <a class="primary-hover" href="#" data-toggle="modal"
+                                        data-target="#exampleModal-b2">The man who is happy will makes others
+                                        too</a>
+                                </h3>
+                            </div>
+                        </div><!-- /single-blog -->
+                    </div><!-- /col -->
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="single-blog mb-50 shadow-hover transition3">
+                            <div class="blog-img">
+                                <img class="w-100 img transition5"
+                                    src="{{ asset('front/assets') }}/images/blog/blog-img3.jpg" alt="blog image 3">
+                            </div>
+                            <div class="single-blog-content bg-white pl-30 pt-25 pb-15 pr-30">
+                                <ul class="blog-meta">
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-folder"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">Web
+                                            Design</span>
+                                    </li>
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i class="fas fa-user"></i></span>
+                                        <a class="meta-text-color openS-font-family d-inline-block"
+                                            href="#">Admin</a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-comment"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">22</span>
+                                    </li>
+                                </ul><!-- /blog-meta -->
+                                <h3 class="mb-10 mt-1">
+                                    <a class="primary-hover" href="#" data-toggle="modal"
+                                        data-target="#exampleModal-b3">The world is not enough to live your
+                                        life</a>
+                                </h3>
+                            </div>
+                        </div><!-- /single-blog -->
+                    </div><!-- /col -->
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="single-blog mb-50 shadow-hover transition3">
+                            <div class="blog-img">
+                                <img class="w-100 img transition5"
+                                    src="{{ asset('front/assets') }}/images/blog/blog-img4.jpg" alt="blog image 4">
+                            </div>
+                            <div class="single-blog-content bg-white pl-30 pt-25 pb-15 pr-30">
+                                <ul class="blog-meta">
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-folder"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">Web
+                                            Design</span>
+                                    </li>
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i class="fas fa-user"></i></span>
+                                        <a class="meta-text-color openS-font-family d-inline-block"
+                                            href="#">Admin</a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-comment"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">22</span>
+                                    </li>
+                                </ul><!-- /blog-meta -->
+                                <h3 class="mb-10 mt-1">
+                                    <a class="primary-hover" href="#" data-toggle="modal"
+                                        data-target="#exampleModal-b4">So close no matter how far could be much
+                                        more</a>
+                                </h3>
+                            </div>
+                        </div><!-- /single-blog -->
+                    </div><!-- /col -->
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="single-blog mb-50 shadow-hover transition3">
+                            <div class="blog-img">
+                                <img class="w-100 img transition5"
+                                    src="{{ asset('front/assets') }}/images/blog/blog-img5.jpg" alt="blog image 5">
+                            </div>
+                            <div class="single-blog-content bg-white pl-30 pt-25 pb-15 pr-30">
+                                <ul class="blog-meta">
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-folder"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">Web
+                                            Design</span>
+                                    </li>
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i class="fas fa-user"></i></span>
+                                        <a class="meta-text-color openS-font-family d-inline-block"
+                                            href="#">Admin</a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-comment"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">22</span>
+                                    </li>
+                                </ul><!-- /blog-meta -->
+                                <h3 class="mb-10 mt-1">
+                                    <a class="primary-hover" href="#" data-toggle="modal"
+                                        data-target="#exampleModal-b5">Kobita tumi sopno charini hoye khobor nio
+                                        na</a>
+                                </h3>
+                            </div>
+                        </div><!-- /single-blog -->
+                    </div><!-- /col -->
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="single-blog mb-50 shadow-hover transition3">
+                            <div class="blog-img">
+                                <img class="w-100 img transition5"
+                                    src="{{ asset('front/assets') }}/images/blog/blog-img6.jpg" alt="blog image 6">
+                            </div>
+                            <div class="single-blog-content bg-white pl-30 pt-25 pb-15 pr-30">
+                                <ul class="blog-meta">
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-folder"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">Web
+                                            Design</span>
+                                    </li>
+                                    <li class="mr-15 d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i class="fas fa-user"></i></span>
+                                        <a class="meta-text-color openS-font-family d-inline-block"
+                                            href="#">Admin</a>
+                                    </li>
+                                    <li class="d-inline-block">
+                                        <span class="theme-color d-inline-block mr-1"><i
+                                                class="fas fa-comment"></i></span>
+                                        <span class="meta-text-color openS-font-family d-inline-block">22</span>
+                                    </li>
+                                </ul><!-- /blog-meta -->
+                                <h3 class="mb-10 mt-1">
+                                    <a class="primary-hover" href="#" data-toggle="modal"
+                                        data-target="#exampleModal-b6">Become the best version of you everyday</a>
+                                </h3>
+                            </div>
+                        </div><!-- /single-blog -->
+                    </div><!-- /col -->
+
+                </div><!-- /row -->
+
+                <div class="blog-modal-wrapper">
+
+                    <!-- Modal 1 start -->
+                    <div class="modal fade" id="exampleModal-b1" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-b1" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="close-icon float-right pt-10 pr-10">
+                                    <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                    </button>
+                                </div>
+                                <div class="modal-content border-0">
+                                    <div class="modal-body pl-50 pr-50 pt-10 pb-50">
+                                        <div class="blog-modal-img">
+                                            <img class="w-100"
+                                                src="{{ asset('front/assets') }}/images/blog/blog-img11.jpg"
+                                                alt="blog post image 02">
+                                        </div>
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-12">
+                                                <div class="content-wrapper">
+                                                    <h2 class="modal-title text-center">
+                                                        Lets make the begging to mankind to save the world again
+                                                    </h2>
+                                                    <ul class="blog-meta text-center mb-30">
+                                                        <li>
+                                                            <a href="#" class="meta-text-color openS-font-family">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-folder-open"></i></span> Web
+                                                                Design
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-calendar-alt"></i></span>
+                                                                June, 21, 2022
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-clock"></i></span>
+                                                                10 min
+                                                            </span>
+                                                        </li>
+                                                    </ul><!-- /blog-meta -->
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Debitis ut recusandae assumenda. Nisi quaerat porro
+                                                        inventore ullam magnam beatae enim cumque. Facilis in maxime
+                                                        quos praesentium cupiditate cum commodi recusandae!
+                                                    </p>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Minus eos ipsam enim perspiciatis doloremque laborum dolor
+                                                        nihil aperiam vel necessitatibus unde cupiditate error eum
+                                                        maiores, sapiente ea. Quisquam sed, molestias veniam
+                                                        adipisci magnam ratione aspernatur delectus a assumenda,
+                                                        corrupti libero commodi eaque quis vel consequatur
+                                                        reiciendis dolor beatae distinctio voluptatum ducimus non
+                                                        optio. Deleniti nobis eius, nihil incidunt voluptate labore,
+                                                        debitis ducimus perspiciatis rerum iure doloremque minus
+                                                        omnis nostrum! Voluptatibus mollitia voluptate ipsa nesciunt
+                                                        animi blanditiis aliquam repellat quibusdam enim eos veniam
+                                                        similique tempora nihil optio, iure necessitatibus hic ipsum
+                                                        nisi maiores perspiciatis magni? Sed vero amet quidem natus
+                                                        consectetur!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Quod ex dolorum aut accusantium, fugit sunt vero animi quos
+                                                        porro excepturi. Quia delectus nulla voluptatem unde
+                                                        incidunt. Magnam natus officiis saepe.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                                        aspernatur reiciendis corporis deleniti beatae? At,
+                                                        inventore necessitatibus repellat alias tenetur quisquam nam
+                                                        maiores eligendi sequi itaque voluptatum architecto minus
+                                                        numquam!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Harum dolore consequatur eius non incidunt fugit hic error
+                                                        accusantium, deserunt et magnam beatae, ipsa distinctio
+                                                        eaque laborum molestias maiores consectetur quo, expedita
+                                                        laboriosam quia quibusdam. Dolores dolorem, tenetur rerum
+                                                        veniam facilis eaque corporis ducimus laudantium excepturi
+                                                        officiis quaerat maiores voluptatem vero optio. Id culpa
+                                                        expedita ipsa enim omnis debitis. Beatae mollitia natus
+                                                        ullam repudiandae ipsa neque. Sequi explicabo odio cum, odit
+                                                        voluptatem cupiditate vero, error incidunt fuga dolore id
+                                                        ut! Eligendi, necessitatibus beatae voluptatem ipsum,
+                                                        ducimus amet sed officia ad aliquid aperiam id, eius
+                                                        accusamus quibusdam doloremque! Enim laudantium sint quae.
+                                                    </p>
+                                                    <div class="pro-modal-footer mt-30 mb-45">
+                                                        <div class="row align-items-center justify-content-md-between">
+                                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="modal-tags d-sm-flex align-items-center pt-25">
+                                                                    <h6 class="mb-0 pr-15">
+                                                                        Tags :</h6>
+                                                                    <ul class="tag-list">
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Web Design</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Social Media</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Recent Blog</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                                    <h6 class="pr-12 mb-0 pb-0">Share :</h6>
+                                                                    <ul class="social-link text-md-right">
+                                                                        <li class="d-inline-block">
+                                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-facebook-f"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-twitter"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-google-plus-g"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-linkedin-in"></i></a>
+                                                                        </li>
+                                                                    </ul><!-- social-link -->
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                        </div> <!-- .row -->
+                                                    </div>
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                    </div><!-- /modal-body -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 1 end -->
+
+                    <!-- Modal 2 start -->
+                    <div class="modal fade" id="exampleModal-b2" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-b2" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="close-icon float-right pt-10 pr-10">
+                                    <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                    </button>
+                                </div>
+                                <div class="modal-content border-0">
+                                    <div class="modal-body pl-50 pr-50 pt-10 pb-50">
+                                        <div class="blog-modal-img">
+                                            <img class="w-100"
+                                                src="{{ asset('front/assets') }}/images/blog/blog-img22.jpg"
+                                                alt="blog post image 02">
+                                        </div>
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-12">
+                                                <div class="content-wrapper">
+                                                    <h2 class="modal-title text-center">
+                                                        Lets make the begging to mankind to save the world again
+                                                    </h2>
+                                                    <ul class="blog-meta text-center mb-30">
+                                                        <li>
+                                                            <a href="#" class="meta-text-color openS-font-family">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-folder-open"></i></span> Web
+                                                                Design
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-calendar-alt"></i></span>
+                                                                June, 21, 2022
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-clock"></i></span>
+                                                                10 min
+                                                            </span>
+                                                        </li>
+                                                    </ul><!-- /blog-meta -->
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Debitis ut recusandae assumenda. Nisi quaerat porro
+                                                        inventore ullam magnam beatae enim cumque. Facilis in maxime
+                                                        quos praesentium cupiditate cum commodi recusandae!
+                                                    </p>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Minus eos ipsam enim perspiciatis doloremque laborum dolor
+                                                        nihil aperiam vel necessitatibus unde cupiditate error eum
+                                                        maiores, sapiente ea. Quisquam sed, molestias veniam
+                                                        adipisci magnam ratione aspernatur delectus a assumenda,
+                                                        corrupti libero commodi eaque quis vel consequatur
+                                                        reiciendis dolor beatae distinctio voluptatum ducimus non
+                                                        optio. Deleniti nobis eius, nihil incidunt voluptate labore,
+                                                        debitis ducimus perspiciatis rerum iure doloremque minus
+                                                        omnis nostrum! Voluptatibus mollitia voluptate ipsa nesciunt
+                                                        animi blanditiis aliquam repellat quibusdam enim eos veniam
+                                                        similique tempora nihil optio, iure necessitatibus hic ipsum
+                                                        nisi maiores perspiciatis magni? Sed vero amet quidem natus
+                                                        consectetur!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Quod ex dolorum aut accusantium, fugit sunt vero animi quos
+                                                        porro excepturi. Quia delectus nulla voluptatem unde
+                                                        incidunt. Magnam natus officiis saepe.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                                        aspernatur reiciendis corporis deleniti beatae? At,
+                                                        inventore necessitatibus repellat alias tenetur quisquam nam
+                                                        maiores eligendi sequi itaque voluptatum architecto minus
+                                                        numquam!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Harum dolore consequatur eius non incidunt fugit hic error
+                                                        accusantium, deserunt et magnam beatae, ipsa distinctio
+                                                        eaque laborum molestias maiores consectetur quo, expedita
+                                                        laboriosam quia quibusdam. Dolores dolorem, tenetur rerum
+                                                        veniam facilis eaque corporis ducimus laudantium excepturi
+                                                        officiis quaerat maiores voluptatem vero optio. Id culpa
+                                                        expedita ipsa enim omnis debitis. Beatae mollitia natus
+                                                        ullam repudiandae ipsa neque. Sequi explicabo odio cum, odit
+                                                        voluptatem cupiditate vero, error incidunt fuga dolore id
+                                                        ut! Eligendi, necessitatibus beatae voluptatem ipsum,
+                                                        ducimus amet sed officia ad aliquid aperiam id, eius
+                                                        accusamus quibusdam doloremque! Enim laudantium sint quae.
+                                                    </p>
+                                                    <div class="pro-modal-footer mt-30 mb-45">
+                                                        <div class="row align-items-center justify-content-md-between">
+                                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="modal-tags d-sm-flex align-items-center pt-25">
+                                                                    <h6 class="mb-0 pr-15">
+                                                                        Tags :</h6>
+                                                                    <ul class="tag-list">
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Web Design</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Social Media</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Recent Blog</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                                    <h6 class="pr-12 mb-0 pb-0">Share :</h6>
+                                                                    <ul class="social-link text-md-right">
+                                                                        <li class="d-inline-block">
+                                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-facebook-f"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-twitter"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-google-plus-g"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-linkedin-in"></i></a>
+                                                                        </li>
+                                                                    </ul><!-- social-link -->
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                        </div> <!-- .row -->
+                                                    </div>
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                    </div><!-- /modal-body -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 2 end -->
+
+                    <!-- Modal 3 start -->
+                    <div class="modal fade" id="exampleModal-b3" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-b3" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="close-icon float-right pt-10 pr-10">
+                                    <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                    </button>
+                                </div>
+                                <div class="modal-content border-0">
+                                    <div class="modal-body pl-50 pr-50 pt-10 pb-50">
+                                        <div class="blog-modal-img">
+                                            <img class="w-100"
+                                                src="{{ asset('front/assets') }}/images/blog/blog-img33.jpg"
+                                                alt="blog post image 02">
+                                        </div>
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-12">
+                                                <div class="content-wrapper">
+                                                    <h2 class="modal-title text-center">
+                                                        Lets make the begging to mankind to save the world again
+                                                    </h2>
+                                                    <ul class="blog-meta text-center mb-30">
+                                                        <li>
+                                                            <a href="#" class="meta-text-color openS-font-family">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-folder-open"></i></span> Web
+                                                                Design
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-calendar-alt"></i></span>
+                                                                June, 21, 2022
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-clock"></i></span>
+                                                                10 min
+                                                            </span>
+                                                        </li>
+                                                    </ul><!-- /blog-meta -->
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Debitis ut recusandae assumenda. Nisi quaerat porro
+                                                        inventore ullam magnam beatae enim cumque. Facilis in maxime
+                                                        quos praesentium cupiditate cum commodi recusandae!
+                                                    </p>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Minus eos ipsam enim perspiciatis doloremque laborum dolor
+                                                        nihil aperiam vel necessitatibus unde cupiditate error eum
+                                                        maiores, sapiente ea. Quisquam sed, molestias veniam
+                                                        adipisci magnam ratione aspernatur delectus a assumenda,
+                                                        corrupti libero commodi eaque quis vel consequatur
+                                                        reiciendis dolor beatae distinctio voluptatum ducimus non
+                                                        optio. Deleniti nobis eius, nihil incidunt voluptate labore,
+                                                        debitis ducimus perspiciatis rerum iure doloremque minus
+                                                        omnis nostrum! Voluptatibus mollitia voluptate ipsa nesciunt
+                                                        animi blanditiis aliquam repellat quibusdam enim eos veniam
+                                                        similique tempora nihil optio, iure necessitatibus hic ipsum
+                                                        nisi maiores perspiciatis magni? Sed vero amet quidem natus
+                                                        consectetur!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Quod ex dolorum aut accusantium, fugit sunt vero animi quos
+                                                        porro excepturi. Quia delectus nulla voluptatem unde
+                                                        incidunt. Magnam natus officiis saepe.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                                        aspernatur reiciendis corporis deleniti beatae? At,
+                                                        inventore necessitatibus repellat alias tenetur quisquam nam
+                                                        maiores eligendi sequi itaque voluptatum architecto minus
+                                                        numquam!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Harum dolore consequatur eius non incidunt fugit hic error
+                                                        accusantium, deserunt et magnam beatae, ipsa distinctio
+                                                        eaque laborum molestias maiores consectetur quo, expedita
+                                                        laboriosam quia quibusdam. Dolores dolorem, tenetur rerum
+                                                        veniam facilis eaque corporis ducimus laudantium excepturi
+                                                        officiis quaerat maiores voluptatem vero optio. Id culpa
+                                                        expedita ipsa enim omnis debitis. Beatae mollitia natus
+                                                        ullam repudiandae ipsa neque. Sequi explicabo odio cum, odit
+                                                        voluptatem cupiditate vero, error incidunt fuga dolore id
+                                                        ut! Eligendi, necessitatibus beatae voluptatem ipsum,
+                                                        ducimus amet sed officia ad aliquid aperiam id, eius
+                                                        accusamus quibusdam doloremque! Enim laudantium sint quae.
+                                                    </p>
+                                                    <div class="pro-modal-footer mt-30 mb-45">
+                                                        <div class="row align-items-center justify-content-md-between">
+                                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="modal-tags d-sm-flex align-items-center pt-25">
+                                                                    <h6 class="mb-0 pr-15">
+                                                                        Tags :</h6>
+                                                                    <ul class="tag-list">
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Web Design</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Social Media</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Recent Blog</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                                    <h6 class="pr-12 mb-0 pb-0">Share :</h6>
+                                                                    <ul class="social-link text-md-right">
+                                                                        <li class="d-inline-block">
+                                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-facebook-f"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-twitter"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-google-plus-g"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-linkedin-in"></i></a>
+                                                                        </li>
+                                                                    </ul><!-- social-link -->
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                        </div> <!-- .row -->
+                                                    </div>
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                    </div><!-- /modal-body -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 3 end -->
+
+                    <!-- Modal 4 start -->
+                    <div class="modal fade" id="exampleModal-b4" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-b4" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="close-icon float-right pt-10 pr-10">
+                                    <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                    </button>
+                                </div>
+                                <div class="modal-content border-0">
+                                    <div class="modal-body pl-50 pr-50 pt-10 pb-50">
+                                        <div class="blog-modal-img">
+                                            <img class="w-100"
+                                                src="{{ asset('front/assets') }}/images/blog/blog-img44.jpg"
+                                                alt="blog post image 02">
+                                        </div>
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-12">
+                                                <div class="content-wrapper">
+                                                    <h2 class="modal-title text-center">
+                                                        Lets make the begging to mankind to save the world again
+                                                    </h2>
+                                                    <ul class="blog-meta text-center mb-30">
+                                                        <li>
+                                                            <a href="#" class="meta-text-color openS-font-family">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-folder-open"></i></span> Web
+                                                                Design
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-calendar-alt"></i></span>
+                                                                June, 21, 2022
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-clock"></i></span>
+                                                                10 min
+                                                            </span>
+                                                        </li>
+                                                    </ul><!-- /blog-meta -->
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Debitis ut recusandae assumenda. Nisi quaerat porro
+                                                        inventore ullam magnam beatae enim cumque. Facilis in maxime
+                                                        quos praesentium cupiditate cum commodi recusandae!
+                                                    </p>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Minus eos ipsam enim perspiciatis doloremque laborum dolor
+                                                        nihil aperiam vel necessitatibus unde cupiditate error eum
+                                                        maiores, sapiente ea. Quisquam sed, molestias veniam
+                                                        adipisci magnam ratione aspernatur delectus a assumenda,
+                                                        corrupti libero commodi eaque quis vel consequatur
+                                                        reiciendis dolor beatae distinctio voluptatum ducimus non
+                                                        optio. Deleniti nobis eius, nihil incidunt voluptate labore,
+                                                        debitis ducimus perspiciatis rerum iure doloremque minus
+                                                        omnis nostrum! Voluptatibus mollitia voluptate ipsa nesciunt
+                                                        animi blanditiis aliquam repellat quibusdam enim eos veniam
+                                                        similique tempora nihil optio, iure necessitatibus hic ipsum
+                                                        nisi maiores perspiciatis magni? Sed vero amet quidem natus
+                                                        consectetur!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Quod ex dolorum aut accusantium, fugit sunt vero animi quos
+                                                        porro excepturi. Quia delectus nulla voluptatem unde
+                                                        incidunt. Magnam natus officiis saepe.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                                        aspernatur reiciendis corporis deleniti beatae? At,
+                                                        inventore necessitatibus repellat alias tenetur quisquam nam
+                                                        maiores eligendi sequi itaque voluptatum architecto minus
+                                                        numquam!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Harum dolore consequatur eius non incidunt fugit hic error
+                                                        accusantium, deserunt et magnam beatae, ipsa distinctio
+                                                        eaque laborum molestias maiores consectetur quo, expedita
+                                                        laboriosam quia quibusdam. Dolores dolorem, tenetur rerum
+                                                        veniam facilis eaque corporis ducimus laudantium excepturi
+                                                        officiis quaerat maiores voluptatem vero optio. Id culpa
+                                                        expedita ipsa enim omnis debitis. Beatae mollitia natus
+                                                        ullam repudiandae ipsa neque. Sequi explicabo odio cum, odit
+                                                        voluptatem cupiditate vero, error incidunt fuga dolore id
+                                                        ut! Eligendi, necessitatibus beatae voluptatem ipsum,
+                                                        ducimus amet sed officia ad aliquid aperiam id, eius
+                                                        accusamus quibusdam doloremque! Enim laudantium sint quae.
+                                                    </p>
+                                                    <div class="pro-modal-footer mt-30 mb-45">
+                                                        <div class="row align-items-center justify-content-md-between">
+                                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="modal-tags d-sm-flex align-items-center pt-25">
+                                                                    <h6 class="mb-0 pr-15">
+                                                                        Tags :</h6>
+                                                                    <ul class="tag-list">
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Web Design</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Social Media</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Recent Blog</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                                    <h6 class="pr-12 mb-0 pb-0">Share :</h6>
+                                                                    <ul class="social-link text-md-right">
+                                                                        <li class="d-inline-block">
+                                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-facebook-f"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-twitter"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-google-plus-g"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-linkedin-in"></i></a>
+                                                                        </li>
+                                                                    </ul><!-- social-link -->
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                        </div> <!-- .row -->
+                                                    </div>
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                    </div><!-- /modal-body -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 4 end -->
+
+                    <!-- Modal 5 start -->
+                    <div class="modal fade" id="exampleModal-b5" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-b5" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="close-icon float-right pt-10 pr-10">
+                                    <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                    </button>
+                                </div>
+                                <div class="modal-content border-0">
+                                    <div class="modal-body pl-50 pr-50 pt-10 pb-50">
+                                        <div class="blog-modal-img">
+                                            <img class="w-100"
+                                                src="{{ asset('front/assets') }}/images/blog/blog-img55.jpg"
+                                                alt="blog post image 02">
+                                        </div>
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-12">
+                                                <div class="content-wrapper">
+                                                    <h2 class="modal-title text-center">
+                                                        Lets make the begging to mankind to save the world again
+                                                    </h2>
+                                                    <ul class="blog-meta text-center mb-30">
+                                                        <li>
+                                                            <a href="#" class="meta-text-color openS-font-family">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-folder-open"></i></span> Web
+                                                                Design
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-calendar-alt"></i></span>
+                                                                June, 21, 2022
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-clock"></i></span>
+                                                                10 min
+                                                            </span>
+                                                        </li>
+                                                    </ul><!-- /blog-meta -->
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Debitis ut recusandae assumenda. Nisi quaerat porro
+                                                        inventore ullam magnam beatae enim cumque. Facilis in maxime
+                                                        quos praesentium cupiditate cum commodi recusandae!
+                                                    </p>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Minus eos ipsam enim perspiciatis doloremque laborum dolor
+                                                        nihil aperiam vel necessitatibus unde cupiditate error eum
+                                                        maiores, sapiente ea. Quisquam sed, molestias veniam
+                                                        adipisci magnam ratione aspernatur delectus a assumenda,
+                                                        corrupti libero commodi eaque quis vel consequatur
+                                                        reiciendis dolor beatae distinctio voluptatum ducimus non
+                                                        optio. Deleniti nobis eius, nihil incidunt voluptate labore,
+                                                        debitis ducimus perspiciatis rerum iure doloremque minus
+                                                        omnis nostrum! Voluptatibus mollitia voluptate ipsa nesciunt
+                                                        animi blanditiis aliquam repellat quibusdam enim eos veniam
+                                                        similique tempora nihil optio, iure necessitatibus hic ipsum
+                                                        nisi maiores perspiciatis magni? Sed vero amet quidem natus
+                                                        consectetur!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Quod ex dolorum aut accusantium, fugit sunt vero animi quos
+                                                        porro excepturi. Quia delectus nulla voluptatem unde
+                                                        incidunt. Magnam natus officiis saepe.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                                        aspernatur reiciendis corporis deleniti beatae? At,
+                                                        inventore necessitatibus repellat alias tenetur quisquam nam
+                                                        maiores eligendi sequi itaque voluptatum architecto minus
+                                                        numquam!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Harum dolore consequatur eius non incidunt fugit hic error
+                                                        accusantium, deserunt et magnam beatae, ipsa distinctio
+                                                        eaque laborum molestias maiores consectetur quo, expedita
+                                                        laboriosam quia quibusdam. Dolores dolorem, tenetur rerum
+                                                        veniam facilis eaque corporis ducimus laudantium excepturi
+                                                        officiis quaerat maiores voluptatem vero optio. Id culpa
+                                                        expedita ipsa enim omnis debitis. Beatae mollitia natus
+                                                        ullam repudiandae ipsa neque. Sequi explicabo odio cum, odit
+                                                        voluptatem cupiditate vero, error incidunt fuga dolore id
+                                                        ut! Eligendi, necessitatibus beatae voluptatem ipsum,
+                                                        ducimus amet sed officia ad aliquid aperiam id, eius
+                                                        accusamus quibusdam doloremque! Enim laudantium sint quae.
+                                                    </p>
+                                                    <div class="pro-modal-footer mt-30 mb-45">
+                                                        <div class="row align-items-center justify-content-md-between">
+                                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="modal-tags d-sm-flex align-items-center pt-25">
+                                                                    <h6 class="mb-0 pr-15">
+                                                                        Tags :</h6>
+                                                                    <ul class="tag-list">
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Web Design</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Social Media</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Recent Blog</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                                    <h6 class="pr-12 mb-0 pb-0">Share :</h6>
+                                                                    <ul class="social-link text-md-right">
+                                                                        <li class="d-inline-block">
+                                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-facebook-f"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-twitter"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-google-plus-g"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-linkedin-in"></i></a>
+                                                                        </li>
+                                                                    </ul><!-- social-link -->
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                        </div> <!-- .row -->
+                                                    </div>
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                    </div><!-- /modal-body -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 5 end -->
+
+                    <!-- Modal 6 start -->
+                    <div class="modal fade" id="exampleModal-b6" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModal-b6" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="close-icon float-right pt-10 pr-10">
+                                    <button type="button" class="close d-inline-block" data-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                                    </button>
+                                </div>
+                                <div class="modal-content border-0">
+                                    <div class="modal-body pl-50 pr-50 pt-10 pb-50">
+                                        <div class="blog-modal-img">
+                                            <img class="w-100"
+                                                src="{{ asset('front/assets') }}/images/blog/blog-img66.jpg"
+                                                alt="blog post image 02">
+                                        </div>
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-12">
+                                                <div class="content-wrapper">
+                                                    <h2 class="modal-title text-center">
+                                                        Lets make the begging to mankind to save the world again
+                                                    </h2>
+                                                    <ul class="blog-meta text-center mb-30">
+                                                        <li>
+                                                            <a href="#" class="meta-text-color openS-font-family">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-folder-open"></i></span> Web
+                                                                Design
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-calendar-alt"></i></span>
+                                                                June, 21, 2022
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="meta-text-color openS-font-family d-block">
+                                                                <span class="theme-color mr-1"><i
+                                                                        class="fas fa-clock"></i></span>
+                                                                10 min
+                                                            </span>
+                                                        </li>
+                                                    </ul><!-- /blog-meta -->
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Debitis ut recusandae assumenda. Nisi quaerat porro
+                                                        inventore ullam magnam beatae enim cumque. Facilis in maxime
+                                                        quos praesentium cupiditate cum commodi recusandae!
+                                                    </p>
+                                                    <p>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Minus eos ipsam enim perspiciatis doloremque laborum dolor
+                                                        nihil aperiam vel necessitatibus unde cupiditate error eum
+                                                        maiores, sapiente ea. Quisquam sed, molestias veniam
+                                                        adipisci magnam ratione aspernatur delectus a assumenda,
+                                                        corrupti libero commodi eaque quis vel consequatur
+                                                        reiciendis dolor beatae distinctio voluptatum ducimus non
+                                                        optio. Deleniti nobis eius, nihil incidunt voluptate labore,
+                                                        debitis ducimus perspiciatis rerum iure doloremque minus
+                                                        omnis nostrum! Voluptatibus mollitia voluptate ipsa nesciunt
+                                                        animi blanditiis aliquam repellat quibusdam enim eos veniam
+                                                        similique tempora nihil optio, iure necessitatibus hic ipsum
+                                                        nisi maiores perspiciatis magni? Sed vero amet quidem natus
+                                                        consectetur!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Quod ex dolorum aut accusantium, fugit sunt vero animi quos
+                                                        porro excepturi. Quia delectus nulla voluptatem unde
+                                                        incidunt. Magnam natus officiis saepe.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                                        aspernatur reiciendis corporis deleniti beatae? At,
+                                                        inventore necessitatibus repellat alias tenetur quisquam nam
+                                                        maiores eligendi sequi itaque voluptatum architecto minus
+                                                        numquam!
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Harum dolore consequatur eius non incidunt fugit hic error
+                                                        accusantium, deserunt et magnam beatae, ipsa distinctio
+                                                        eaque laborum molestias maiores consectetur quo, expedita
+                                                        laboriosam quia quibusdam. Dolores dolorem, tenetur rerum
+                                                        veniam facilis eaque corporis ducimus laudantium excepturi
+                                                        officiis quaerat maiores voluptatem vero optio. Id culpa
+                                                        expedita ipsa enim omnis debitis. Beatae mollitia natus
+                                                        ullam repudiandae ipsa neque. Sequi explicabo odio cum, odit
+                                                        voluptatem cupiditate vero, error incidunt fuga dolore id
+                                                        ut! Eligendi, necessitatibus beatae voluptatem ipsum,
+                                                        ducimus amet sed officia ad aliquid aperiam id, eius
+                                                        accusamus quibusdam doloremque! Enim laudantium sint quae.
+                                                    </p>
+                                                    <div class="pro-modal-footer mt-30 mb-45">
+                                                        <div class="row align-items-center justify-content-md-between">
+                                                            <div class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="modal-tags d-sm-flex align-items-center pt-25">
+                                                                    <h6 class="mb-0 pr-15">
+                                                                        Tags :</h6>
+                                                                    <ul class="tag-list">
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Web Design</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Social Media</a>
+                                                                        </li>
+                                                                        <li class="d-inline-block pr-10 ">
+                                                                            <a class="meta-text-color d-block"
+                                                                                href="#">Recent Blog</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                            <div class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
+                                                                <div
+                                                                    class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
+                                                                    <h6 class="pr-12 mb-0 pb-0">Share :</h6>
+                                                                    <ul class="social-link text-md-right">
+                                                                        <li class="d-inline-block">
+                                                                            <a class="facebook-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-facebook-f"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="twitter-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-twitter"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-google-plus-g"></i></a>
+                                                                        </li>
+                                                                        <li class="d-inline-block">
+                                                                            <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
+                                                                                href="#"><i
+                                                                                    class="fab fa-linkedin-in"></i></a>
+                                                                        </li>
+                                                                    </ul><!-- social-link -->
+                                                                </div>
+                                                            </div><!-- /col -->
+                                                        </div> <!-- .row -->
+                                                    </div>
+                                                </div>
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                    </div><!-- /modal-body -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal 6 end -->
+                </div><!-- /blog-modal-wrapper end -->
+
+            </div><!-- /container -->
+        </div><!-- /blog-wrapper -->
+    </div>
+    <!-- blog-area-end  -->
+@endsection
