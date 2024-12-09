@@ -22,14 +22,8 @@ class SettingsRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'settings.name' => ['required', 'string', 'max:100'],
-            'settings.email' => ['required', 'email', 'string', 'max:50'],
-            'settings.phone' => ['required', 'string', 'max:20'],
-            'settings.address' => ['required', 'string', 'max:255'],
-            'settings.facebook' => ['required', 'string', 'max:255'],
-            'settings.linkedin' => ['required', 'string', 'max:255'],
-            'settings.twitter' => ['required', 'string', 'max:255'],
-            'settings.instagram' => ['required', 'string', 'max:255'],
+            'title' => ['required', 'string', 'max:100'],
+            'description' => ['required', 'string'],
         ];
     }
 }

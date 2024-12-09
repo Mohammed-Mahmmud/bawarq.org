@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Setting extends Model
 {
     use HasFactory;
-    protected $table = 'settings';
+    protected $table = 'abouts';
     protected $guarded = [];
     public $timestamps = true;
     public $incrementing = true;

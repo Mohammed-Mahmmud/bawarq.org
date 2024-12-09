@@ -7,7 +7,7 @@
         </div>
         <div class="col-12 mb-0">
             <label for="description" class="form-label">Description</label>
-            <textarea id="description" class="form-control ckeditor" placeholder="" wire:model="description" rows="5"></textarea>
+            <textarea id="description" class="form-control" placeholder="" wire:model="description" rows="5"></textarea>
             <x-dashboard.layouts.error :error="'description'" />
         </div>
         <div class="col-12 mb-0">

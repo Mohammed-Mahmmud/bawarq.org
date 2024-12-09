@@ -8,29 +8,36 @@ use Livewire\Component;
 
 class UpdateSettings extends Component
 {
-    public $settings;
+    public $title, $description, $settings;
+
     public function mount()
     {
-        $this->settings = Setting::find(1);
+        $this->settings = Setting::first();
+        if ($this->settings) {
+            $this->title = $this->settings->title;
+            $this->description = $this->settings->description;
+        }
     }
+
     public function rules()
     {
         return (new SettingsRequest())->rules();
     }
-    public function attributes()
-    {
-        return [
-            'settings.name' => 'comapny name',
-            'settings.email' => 'default company email',
-            'settings.address' => 'company location',
-        ];
-    }
+
     public function submit()
     {
-        $this->validate($this->rules(), [], $this->attributes());
-        $this->settings->save();
+        // Validate the data
+        $data = $this->validate();
+
+        // Update existing record or create a new one
+        $this->settings = Setting::updateOrCreate(
+            ['id' => 1],
+            $data
+        );
+
         session()->flash('message', 'Settings updated successfully');
     }
+
     public function render()
     {
         return view('dashboard.pages.settings.update-settings');
