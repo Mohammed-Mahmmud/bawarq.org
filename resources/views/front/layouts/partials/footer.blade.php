@@ -13,7 +13,7 @@
                              <div class="copyright-text">
                                  <p class="mb-0">All rights reserved
                                      <a href="https://themeforest.net/user/ethemestudio"
-                                         class="c-theme primary-color f-600">eThemeStudio</a>
+                                         class="c-theme primary-color f-600">Bawarq</a>
                                      © 2024
                                  </p>
                              </div>

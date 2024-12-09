@@ -48,7 +48,7 @@
                                      <div class="modal-content border-0">
                                          <div class="modal-body pl-50 pr-50 pt-10 pb-50">
                                              <div class="blog-modal-img">
-                                                 <img class="w-100" src="{{ asset($tool->image) }}"
+                                                 <img style="width: 150px; height: 150px"  src="{{ asset($tool->image) }}"
                                                      alt="blog post image 02">
                                              </div>
                                              <div class="row align-items-center justify-content-center">
@@ -58,62 +58,6 @@
                                                              {{ $tool->name }}
                                                          </h2>
                                                          <p>{!! $tool->description !!}</p>
-                                                         <div class="pro-modal-footer mt-30 mb-45">
-                                                             <div
-                                                                 class="row align-items-center justify-content-md-between">
-                                                                 <div
-                                                                     class="col-xl-7 col-lg-7  col-md-12 col-sm-12 col-12">
-                                                                     {{-- <div
-                                                                         class="modal-tags d-sm-flex align-items-center pt-25">
-                                                                         <h6 class="mb-0 pr-15">
-                                                                             Tags :</h6>
-                                                                         <ul class="tag-list">
-                                                                             <li class="d-inline-block pr-10 ">
-                                                                                 <a class="meta-text-color d-block"
-                                                                                     href="#">Web Design</a>
-                                                                             </li>
-                                                                             <li class="d-inline-block pr-10 ">
-                                                                                 <a class="meta-text-color d-block"
-                                                                                     href="#">Social Media</a>
-                                                                             </li>
-                                                                             <li class="d-inline-block pr-10 ">
-                                                                                 <a class="meta-text-color d-block"
-                                                                                     href="#">Recent Blog</a>
-                                                                             </li>
-                                                                         </ul>
-                                                                     </div> --}}
-                                                                 </div><!-- /col -->
-                                                                 <div
-                                                                     class="col-xl-5 col-lg-5  col-md-12 col-sm-12 col-12">
-                                                                     {{-- <div
-                                                                         class="pro-modal-social-link d-flex align-items-center justify-content-lg-end pt-25">
-                                                                         <h6 class="pr-12 mb-0 pb-0">Share :</h6>
-                                                                         <ul class="social-link text-md-right">
-                                                                             <li class="d-inline-block">
-                                                                                 <a class="facebook-color text-center pl-15 d-inline-block transition-3"
-                                                                                     href="#"><i
-                                                                                         class="fab fa-facebook-f"></i></a>
-                                                                             </li>
-                                                                             <li class="d-inline-block">
-                                                                                 <a class="twitter-color text-center pl-15 d-inline-block transition-3"
-                                                                                     href="#"><i
-                                                                                         class="fab fa-twitter"></i></a>
-                                                                             </li>
-                                                                             <li class="d-inline-block">
-                                                                                 <a class="google-plus-color text-center pl-15 d-inline-block transition-3"
-                                                                                     href="#"><i
-                                                                                         class="fab fa-google-plus-g"></i></a>
-                                                                             </li>
-                                                                             <li class="d-inline-block">
-                                                                                 <a class="linkedin-color text-center pl-15 d-inline-block transition-3"
-                                                                                     href="#"><i
-                                                                                         class="fab fa-linkedin-in"></i></a>
-                                                                             </li>
-                                                                         </ul><!-- social-link -->
-                                                                     </div> --}}
-                                                                 </div><!-- /col -->
-                                                             </div> <!-- .row -->
-                                                         </div>
                                                      </div>
                                                  </div><!-- /col -->
                                              </div><!-- /row -->
