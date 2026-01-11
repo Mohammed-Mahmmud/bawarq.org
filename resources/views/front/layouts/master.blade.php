@@ -8,6 +8,7 @@
 
 
     @include('front.layouts.partials.navbar')
+    @include('front.layouts.partials.sidebar')
 
 
     <!--  ====== header extra info start

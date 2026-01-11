@@ -17,8 +17,10 @@
                          <div class="col-xl-4 col-lg-6 col-md-3 col-sm-12 col-12">
                              <div class="single-blog mb-50 shadow-hover transition3">
                                  <div class="blog-img">
-                                     <img class="w-100 img transition5" width="100px" height="100px"
+                                    <a href="{{ asset($tool->image) }}" data-toggle="modal" data-target="#exampleModal-{{ $tool->id }}">
+                                     <img class="w-100 img transition5" width="100px" height="200px"
                                          src="{{ asset($tool->image) }}" alt="{{ $tool->name }}">
+                                    </a>
                                  </div>
                                  <div class="single-blog-content bg-white pl-30 pt-25 pb-15 pr-30">
                                      <h3 class="mb-10 mt-1" style="height:80px">

@@ -159,7 +159,7 @@
 
     // 10.blog active
     //---------------------------------------------------------------------------
-    $('.blog-active').slick({
+    $('.blog-active, .service-active').slick({
         dots: false,
         arrows: true,
         prevArrow:'<b><i class="l-a fas fa-angle-left"></i></b>',
